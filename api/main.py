@@ -4,7 +4,7 @@ import re
 
 client = anthropic.Anthropic(
     # defaults to os.environ.get("ANTHROPIC_API_KEY")
-    api_key="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",
+    api_key="",
 )
 
 first_message = 'You stand before a mansion gate will you {"options":["Gehen Sie durch das Tor", "Gehen Sie nach links", "Gehen Sie nach rechts"]}'
@@ -41,13 +41,7 @@ def update_state(string):
     current_message = string[:msg_end]
 
 
-def select_option(option):
-    sentance = re.sub(r'\{.*?\}', '', current_message) 
-    sentance += option
-    return sentance
-
-
-
+# sends message to claude and updates messages
 def message_claude(message):
 
     response = client.messages.create(
@@ -62,6 +56,10 @@ def message_claude(message):
     MESSAGES.append({"role": "user", "content": message}) 
     MESSAGES.append(response)
     return response.content
+
+
+
+
 
 app = Flask(__name__)
 
@@ -90,6 +88,8 @@ def register_user():
 
 
 
+
+# takes user action updates state and gets next question from llm
 @app.route("/action", methods=['POST'])
 def user_action():
     if request.method == 'POST':
@@ -105,16 +105,10 @@ def user_action():
 
 
 
-
+# gets initial state"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"
 @app.route("/start", methods=['GET'])
 def start():
     return jsonify({"message": current_message, "options": current_options})
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
