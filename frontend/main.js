@@ -16,7 +16,7 @@ PANELS = []
 
 function update(data){
     text.innerHTML = data.scene;
-
+    console.log(data.option1)
     opt1.innerHTML = data.option1;
     opt2.innerHTML = data.option2;
     opt3.innerHTML = data.option3;
