@@ -112,7 +112,8 @@ def user_action():
 
         print(data)
 
-        scene, opt1, opt2, opt3 = get_next_scene(data["panels"], "German", "BALDWIN", "beginner", "genre", "theme")
+        scene, opt1, opt2, opt3 = get_next_scene(data["panels"], data["language"], data["name"], "beginner", data["genre"], data["theme"])
+
         print("opt1: " + opt1)
 
         response = flask.jsonify({"scene": scene, "option1": opt1, "option2": opt2, "option3": opt3})
