@@ -1,13 +1,19 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+import flask
 import anthropic
 import re
+from flask_cors import CORS
+
+file = open("key.txt", "r")
+api_key = file.read()
+file.close()
 
 client = anthropic.Anthropic(
     # defaults to os.environ.get("ANTHROPIC_API_KEY")
-    api_key="",
+    api_key=api_key,
 )
 
-first_message = 'You stand before a mansion gate will you {"options":["Gehen Sie durch das Tor", "Gehen Sie nach links", "Gehen Sie nach rechts"]}'
+FIRST_MSG = 'You stand before a mansion gate will you {"options":["Gehen Sie durch das Tor", "Gehen Sie nach links", "Gehen Sie nach rechts"]}'
 
 SYS = """
 You are a language learning assistant that is going to help teach users German through a text based story game.
@@ -23,10 +29,11 @@ current_message = "You stand before a mansion gate will you"
 current_options = ["Geh in die Küche", "Geh in die Lounge", "Geh zurück zur Tür"]
 
 
-MESSAGES = [{"role": "assistant", "content": first_message}]
+MESSAGES = [{"role": "assistant", "content": FIRST_MSG}]
 
 # takes a string and extracts json options
 def update_state(string):
+    print(string)
     # update options
     start_index = string.find('[')
     end_index = string.find(']')
@@ -39,6 +46,8 @@ def update_state(string):
     # update message
     msg_end = string.find("{")
     current_message = string[:msg_end]
+
+    return current_message, current_options
 
 
 # sends message to claude and updates messages
@@ -62,31 +71,9 @@ def message_claude(message):
 
 
 app = Flask(__name__)
+app.config['PROPAGATE_EXCEPTIONS'] = False
 
-
-# example get request
-@app.route('/hello', methods=['GET'])
-def hello_world():
-    return jsonify({'message': 'Hello, World!'})
-
-
-#example post request
-@app.route('/register', methods=['POST'])
-def register_user():
-    if request.method == 'POST':
-        data = request.get_json()  # Assuming JSON data is sent
-
-        username = data.get('username')
-        password = data.get('password')
-
-        # In a real application, store this data securely in a database 
-        # after proper validation.
-
-        return jsonify({'message': 'User registration successful!'}), 200
-    else:
-        return jsonify({'error': 'Method not allowed'}), 405 
-
-
+CORS(app)
 
 
 # takes user action updates state and gets next question from llm
@@ -95,20 +82,32 @@ def user_action():
     if request.method == 'POST':
         data = request.get_json()
 
-        choise = data.get("choise")
+        print(data)
+
+        choise = data.get("option")
+
+        print("got option: " + choise)
+
+        print(choise)
 
         response = message_claude(choise)
 
-        update_state(response)
+        message, options = update_state(response[0].text)
 
-        return jsonify({"message": current_message, "options": current_options}), 200
+        response = flask.jsonify({"message": message, "options": options})
+
+        # response.headers.add('Access-Control-Allow-Origin', '*')
+
+        return response, 200
 
 
 
-# gets initial state"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"
+# gets initial state
 @app.route("/start", methods=['GET'])
 def start():
-    return jsonify({"message": current_message, "options": current_options})
+    response = flask.jsonify({"message": current_message, "options": current_options})
+    # response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
 
 
 if __name__ == '__main__':
