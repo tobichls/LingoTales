@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 function App() {
-  const [options, setOptions] = useState(["climb the gate", "walk left", "go right"])
+  const [ options, setOptions ] = useState(["climb the gate", "walk left", "go right"])
   const [ message, setMessage ]  = useState("You walk up to the gate of a large looming mansion you ")
   const [ panels, setPanels ] = useState([])
 
@@ -48,14 +48,12 @@ function App() {
 
   return (
     <>
-      <h1>Hello!</h1>
-
       <h2 id="main_text">{message}</h2>
       <div id="selection_div">
 
         {options.map((option,i) => {
           return (
-            <button key={i} onClick={next}>
+            <button key={i} className="option" onClick={next}>
               {option}
             </button>
             )
