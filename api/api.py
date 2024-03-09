@@ -5,7 +5,7 @@ import anthropic
 
 def log(message):
     file = open("log.txt")
-    file.append("\n" + message)
+    file.write("\n" + message)
     file.close()
 
 
