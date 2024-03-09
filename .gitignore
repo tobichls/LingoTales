@@ -1,3 +1,6 @@
 api/key.txt
 
+api/claude-key.txt
+api/gpt-key.txt
+
 frontend/node_modules/
