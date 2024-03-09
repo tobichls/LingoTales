@@ -72,6 +72,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: var(--secondary);
+  color: var(--text);
   cursor: pointer;
   transition: border-color 0.25s;
 }

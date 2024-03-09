@@ -6,9 +6,16 @@ function App() {
   const [ message, setMessage ]  = useState("You walk up to the gate of a large looming mansion you ")
   const [ panels, setPanels ] = useState([])
   const [ formSubmitted, setFormSubmitted ] = useState(false)
+  const [ contextualData, setContextualData ] = useState(null)
 
-  const handleFormSubmittedState = () => {
+  const handleFormSubmittedState = (data) => {
     setFormSubmitted(true)
+    setContextualData({
+      name: data.name,
+      language: data.language,
+      genre: data.genre,
+      theme: data.theme,
+    } )
   }
 
   const next = (event) => {
@@ -23,7 +30,10 @@ function App() {
       "userChoice": selectedOption
     }])
 
-    const data = {"panels": panels}
+    const data = {
+      ...contextualData,
+      "storyElements": panels,
+    }
 
     fetch('http://127.0.0.1:5000/action', {
         method: 'POST',

@@ -31,27 +31,9 @@ const MultiStepForm = ({handleFormSubmittedState}) => {
     setFormData({ ...formData, name: value });
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = () => {
     console.log(formData)
-    try {
-      const response = await fetch("", {
-        method: "POST",
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
-      })
-
-      if(response.ok) {
-        handleFormSubmittedState()
-        // do stuff with response
-        console.log(response)
-      } else {
-        console.error("Error submitting form")
-      }
-    } catch (error) {
-      console.error("Error submitting form", error)
-    }
+    handleFormSubmittedState(formData)
   }
 
 
