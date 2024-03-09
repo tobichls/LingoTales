@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import NameInput from './NameInput';
 import FormStep from "./FormStep"
 import autoAnimate from '@formkit/auto-animate';
+import LangInput from './LangInput';
 
 const MultiStepForm = ({handleFormSubmittedState}) => {
   const [currentStep, setCurrentStep] = useState(1);
@@ -44,13 +45,10 @@ const MultiStepForm = ({handleFormSubmittedState}) => {
   return (
     <div ref={parent}>
       {currentStep === 1 && (
-        <FormStep
+        <LangInput
           nextStep={nextStep}
-          question="What language are you learning?"
-          options={["French", "German", "Spanish", "Russian"]}
-          disabledOptions={[]}
           handleOptionSelect={(option) => handleOptionSelect('language', option)}
-          selectedOption={formData.language}
+          language={formData.language}
         />
       )}
       {currentStep === 2 && (
