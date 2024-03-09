@@ -3,8 +3,6 @@ import flask
 import anthropic
 import re
 from flask_cors import CORS
-<<<<<<< HEAD
-=======
 import json
 import tiktoken
 
@@ -14,7 +12,6 @@ ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
 
 SYS = ""
 
->>>>>>> 1cfdcfeb560ccc7cdab5e40b4d8e64f7794a4861
 
 file = open("key.txt", "r")
 api_key = file.read()
@@ -25,10 +22,6 @@ client = anthropic.Anthropic(
     api_key=api_key,
 )
 
-<<<<<<< HEAD
-FIRST_MSG = 'You stand before a mansion gate will you {"options":["Gehen Sie durch das Tor", "Gehen Sie nach links", "Gehen Sie nach rechts"]}'
-=======
->>>>>>> 1cfdcfeb560ccc7cdab5e40b4d8e64f7794a4861
 
 # function to join the story element objects into a prompt
 def join_story_elements(story_elements):
@@ -58,42 +51,31 @@ def receive_story_elements(story_elements):
     while (check_prompt_tokens(prompt) == False):
         story_elements = story_elements[1:]
         prompt = join_story_elements(story_elements)
-    
+
     # make gpt call
     responseObject = message_claude(prompt)
 
     return responseObject.scene, responseObject.choice1, responseObject.choice2, responseObject.choice3
 
 
-<<<<<<< HEAD
-MESSAGES = [{"role": "assistant", "content": FIRST_MSG}]
-
-# takes a string and extracts json options
-def update_state(string):
-    print(string)
-    # update options
-    start_index = string.find('[')
-    end_index = string.find(']')
-=======
 
 # function to check token size of prompt
 def check_prompt_tokens(prompt):
     #tokens = len(prompt.split()) # double check how to count tokens
-    #tokens = tiktoken.count_tokens(prompt, ENCODING) 
+    #tokens = tiktoken.count_tokens(prompt, ENCODING)
     tokens = len(ENCODING.encode(prompt))
     if tokens > TOKENLIMIT:
         return False
     else:
         return True
-    
+
 # function to check gpt response
 def check_gpt_response(gpt_response):
     response_dict = json.loads(gpt_response)
->>>>>>> 1cfdcfeb560ccc7cdab5e40b4d8e64f7794a4861
 
     # check if response is valid
-    if (response_dict.scene == None 
-        or response_dict.choice1 == None 
+    if (response_dict.scene == None
+        or response_dict.choice1 == None
         or response_dict.choice2 == None
         or response_dict.choice3 == None):
         # send error message
@@ -135,41 +117,12 @@ def user_action():
         print(data)
         scene, opt1, opt2, opt3 = receive_story_elements(data.panels)
 
-<<<<<<< HEAD
-        print(data)
-
-        choise = data.get("option")
-
-        print("got option: " + choise)
-
-        print(choise)
-=======
         response = flask.jsonify({"scene": scene, "choice1:": opt1, "choice2": opt2, "choice3": opt3})
->>>>>>> 1cfdcfeb560ccc7cdab5e40b4d8e64f7794a4861
-
-        # response.headers.add('Access-Control-Allow-Origin', '*')
-
-<<<<<<< HEAD
-        message, options = update_state(response[0].text)
-
-        response = flask.jsonify({"message": message, "options": options})
 
         # response.headers.add('Access-Control-Allow-Origin', '*')
 
         return response, 200
-
-
-
-# gets initial state
-@app.route("/start", methods=['GET'])
-def start():
-    response = flask.jsonify({"message": current_message, "options": current_options})
-    # response.headers.add('Access-Control-Allow-Origin', '*')
-    return response
-=======
-        return response, 200
->>>>>>> 1cfdcfeb560ccc7cdab5e40b4d8e64f7794a4861
 
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True)
