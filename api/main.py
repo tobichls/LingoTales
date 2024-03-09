@@ -46,7 +46,7 @@ def join_data(language, name, beginner, genre, theme):
     sys += "As users progress through the story, the app adapts the language to the user's chosen target language, creating a contextualized learning experience." + '\n'
     sys += "Please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story." + '\n'
     sys += "The scenes must be given in English and the options must be given in "  + language + '\n'
-    sys += "When you respond, you must format it in: javascript object notation (JSON) containing four properties: 'scene', 'option1', 'option2', 'option3'. You must not wrap the JSON respnose in any kind of way." + '\n'
+    sys += 'Give the scenes in the format {"scene": "the description of the scene and story", "option1": "the first options", "option2": "the second option", "option3": "the third option"}\n'
 
     return sys
 
@@ -65,7 +65,7 @@ def get_next_scene(story_elements, language, name, beginner, genre, theme):
     # make gpt call
     print(sys)
     print(prompt)
-    response = api.send_message(client, prompt, sys_msg=sys)
+    response = api.send_message(client, prompt, sys_msg=sys, force_json = True)
     print("!!!!!!!", response)
     responseObject = json.loads(response)
     print(responseObject)

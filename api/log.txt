@@ -11,3 +11,15 @@
   "option2": "Search the room for clues or hidden passages.",
   "option3": "Attempt to leave the room and explore further."
 }
+{
+"scene": "You wake up in a small room with no windows. The only exit is a heavy wooden door. As you try to collect your thoughts, you hear faint noises coming from behind the door.",
+"option1": "Die Tür öffnen und nachsehen, woher die Geräusche kommen.",
+"option2": "Warten und hoffen, dass jemand kommt, um dich zu befreien.",
+"option3": "Laut um Hilfe rufen und versuchen, jemandes Aufmerksamkeit zu erregen."
+}
+{
+"scene": "You wake up in a small room with no windows. The only exit is a heavy wooden door. As you try to collect your thoughts, you hear faint noises coming from behind the door.",
+"option1": "Die Tür öffnen und nachsehen, woher die Geräusche kommen.",
+"option2": "Warten und hoffen, dass jemand kommt, um dich zu befreien.",
+"option3": "Laut um Hilfe rufen und versuchen, jemandes Aufmerksamkeit zu erregen."
+}

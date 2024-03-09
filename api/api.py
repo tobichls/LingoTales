@@ -28,7 +28,7 @@ def init(system_message, backend = "claude"):
 
 
 # takes messages in the format {"role": role, "content": message}
-def send_message(client, message, sys_msg=""):
+def send_message(client, message, sys_msg="", force_json = False):
     if not (client == None):
         response = client.messages.create(
             model="claude-3-sonnet-20240229",
@@ -38,8 +38,17 @@ def send_message(client, message, sys_msg=""):
             messages=[{"role": "user", "content": message}],
         )
 
-        log(response.content[0].text)
-        return response.content[0].text
+        if force_json:
+            messages.append({"role": "assistant", "content": "Sure here is the json:\n{"})
+
+            log(response.content[0].text)
+            return "{" + response.content[0].text
+
+        else:
+            log(response.content[0].text)
+            return response.content[0].text
+
+
     else:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
