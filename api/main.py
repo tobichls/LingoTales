@@ -6,6 +6,8 @@ from flask_cors import CORS
 import json
 import tiktoken
 
+import api
+
 
 TOKENLIMIT = 4000
 ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
@@ -13,14 +15,14 @@ ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
 SYS = ""
 
 
-file = open("key.txt", "r")
-api_key = file.read()
-file.close()
+# file = open("key.txt", "r")
+# api_key = file.read()
+# file.close()
 
-client = anthropic.Anthropic(
-    # defaults to os.environ.get("ANTHROPIC_API_KEY")
-    api_key=api_key,
-)
+# client = anthropic.Anthropic(
+#     # defaults to os.environ.get("ANTHROPIC_API_KEY")
+#     api_key=api_key,
+# )
 
 
 # function to join the story element objects into a prompt
@@ -34,17 +36,17 @@ def join_story_elements(story_elements):
         else:
             prompt += "The next scene:"
 
-        prompt += element.scene + '\n'
-        prompt += "The user has chosen to:" + element.userChoice + '\n'
+        prompt += element["scene"] + '\n'
+        prompt += "The user has chosen to:" + element["userChoice"] + '\n'
     prompt += "ChatGPT, please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story."
     prompt += '\n'+"When you respond, please format it in: javascript object notation (json) containing scene, option 1, option 2, option 3."
     # for testing
-    print(prompt)
     return prompt
 
 # function to receive story elements
 def receive_story_elements(story_elements):
-    story_elements = json.loads(story_elements)
+
+    # story_elements = json.loads(story_elements)
 
     prompt = join_story_elements(story_elements)
 
@@ -53,9 +55,10 @@ def receive_story_elements(story_elements):
         prompt = join_story_elements(story_elements)
 
     # make gpt call
-    responseObject = message_claude(prompt)
-
-    return responseObject.scene, responseObject.choice1, responseObject.choice2, responseObject.choice3
+    
+    response = api.send_message(client, prompt)
+    responseObject = json.loads(response)
+    return responseObject["scene"], responseObject["option1"], responseObject["option2"], responseObject["option3"]
 
 
 
@@ -74,10 +77,17 @@ def check_gpt_response(gpt_response):
     response_dict = json.loads(gpt_response)
 
     # check if response is valid
+<<<<<<< Updated upstream
     if (response_dict.scene == None
         or response_dict.choice1 == None
         or response_dict.choice2 == None
         or response_dict.choice3 == None):
+=======
+    if (response_dict['scene'] == None 
+        or response_dict['option1'] == None 
+        or response_dict['option2'] == None
+        or response_dict['option3'] == None):
+>>>>>>> Stashed changes
         # send error message
         print("Error 1: GPT-3 response is invalid")
     else:
@@ -108,16 +118,18 @@ app.config['PROPAGATE_EXCEPTIONS'] = False
 
 CORS(app)
 
+client = api.init("")
+
 
 # takes user action updates state and gets next question from llm
 @app.route("/action", methods=['POST'])
 def user_action():
     if request.method == 'POST':
         data = request.get_json()
-        print(data)
-        scene, opt1, opt2, opt3 = receive_story_elements(data.panels)
 
-        response = flask.jsonify({"scene": scene, "choice1:": opt1, "choice2": opt2, "choice3": opt3})
+        scene, opt1, opt2, opt3 = receive_story_elements(data["panels"])
+
+        response = flask.jsonify({"scene": scene, "option1:": opt1, "option2": opt2, "option3": opt3})
 
         # response.headers.add('Access-Control-Allow-Origin', '*')
 

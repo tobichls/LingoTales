@@ -8,7 +8,8 @@ opt3 = document.getElementById("opt3_lab");
 
 SYS_MSG = ""
 
-INIT_MSG = ""
+INIT_MSG = "You walk up to the gate of a large looming mansion you "
+INIT_OPTS = ["climb the gate", "walk left", "go right"]
 
 PANELS = []
 
@@ -16,10 +17,12 @@ PANELS = []
 function update(data){
     text.innerHTML = data.message;
 
-    opt1.innerHTML = data.options[0];
-    opt2.innerHTML = data.options[1];
-    opt3.innerHTML = data.options[2];
+    opt1.innerHTML = data.option1;
+    opt2.innerHTML = data.option2;
+    opt3.innerHTML = data.option3;
 }
+
+update({"message": INIT_MSG, "option1": "climb the gate", "option2": "walk left", "option3": "walk right"})
 
 
 
@@ -39,8 +42,10 @@ function next(){
     }
 
     PANELS.push({"scene": scene,
-                "options":[opt1.innerHTML, opt2.innerHTML, opt3.innerHTML],
-                "userchoice": option})
+                "option1": opt1.innerHTML,
+                "option2": opt2.innerHTML,
+                "option3": opt3.innerHTML,
+                "userChoice": option})
 
 
     data = {"panels": PANELS}

@@ -1,9 +1,7 @@
 import os
 import openai
+import anthropic
 
-
-client = None
-sys_msg = ""
 
 def init(system_message, backend = "claude"):
     sys_msg = system_message
@@ -12,6 +10,7 @@ def init(system_message, backend = "claude"):
         api_key = file.read()
         file.close()
         openai.api_key = api_key
+        return None
 
     else:
         file = open("claude-key.txt", "r")
@@ -19,20 +18,21 @@ def init(system_message, backend = "claude"):
         file.close()
 
         client = anthropic.Anthropic(api_key=api_key)   
+        return client
 
 
 # takes messages in the format {"role": role, "content": message}
-def send_message(messages):
+def send_message(client, message, sys_msg=""):
     if not (client == None):
         response = client.messages.create(
             model="claude-3-sonnet-20240229",
             max_tokens=2000,
             temperature=0.0,
-            system=SYS,
-            messages=messages,
+            system=sys_msg,
+            messages=[{"role": "user", "content": message}],
         )
 
-        return response.content
+        return response.content[0].text
     else:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
@@ -40,5 +40,4 @@ def send_message(messages):
             )
 
             # Get the generated text 
-            return response.choices[0].message.content   
-        # defaults to os.environ.get("ANTHROPIC_API_KEY")
+        return response.choices[0].message.content  
