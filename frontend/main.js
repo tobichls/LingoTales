@@ -15,14 +15,14 @@ PANELS = []
 
 
 function update(data){
-    text.innerHTML = data.message;
+    text.innerHTML = data.scene;
 
     opt1.innerHTML = data.option1;
     opt2.innerHTML = data.option2;
     opt3.innerHTML = data.option3;
 }
 
-update({"message": INIT_MSG, "option1": "climb the gate", "option2": "walk left", "option3": "walk right"})
+update({"scene": INIT_MSG, "option1": "climb the gate", "option2": "walk left", "option3": "walk right"})
 
 
 

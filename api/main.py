@@ -58,6 +58,7 @@ def receive_story_elements(story_elements):
     
     response = api.send_message(client, prompt)
     responseObject = json.loads(response)
+    print(responseObject)
     return responseObject["scene"], responseObject["option1"], responseObject["option2"], responseObject["option3"]
 
 
@@ -77,17 +78,10 @@ def check_gpt_response(gpt_response):
     response_dict = json.loads(gpt_response)
 
     # check if response is valid
-<<<<<<< Updated upstream
-    if (response_dict.scene == None
-        or response_dict.choice1 == None
-        or response_dict.choice2 == None
-        or response_dict.choice3 == None):
-=======
     if (response_dict['scene'] == None 
         or response_dict['option1'] == None 
         or response_dict['option2'] == None
         or response_dict['option3'] == None):
->>>>>>> Stashed changes
         # send error message
         print("Error 1: GPT-3 response is invalid")
     else:
@@ -128,6 +122,7 @@ def user_action():
         data = request.get_json()
 
         scene, opt1, opt2, opt3 = receive_story_elements(data["panels"])
+        print("opt1: " + opt1)
 
         response = flask.jsonify({"scene": scene, "option1:": opt1, "option2": opt2, "option3": opt3})
 
