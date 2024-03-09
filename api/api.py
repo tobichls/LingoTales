@@ -3,6 +3,12 @@ import openai
 import anthropic
 
 
+def log(message):
+    file = open("log.txt")
+    file.append("\n" + message)
+    file.close()
+
+
 def init(system_message, backend = "claude"):
     sys_msg = system_message
     if backend == "gpt":
@@ -32,6 +38,7 @@ def send_message(client, message, sys_msg=""):
             messages=[{"role": "user", "content": message}],
         )
 
+        log(response.content[0].text)
         return response.content[0].text
     else:
         response = openai.ChatCompletion.create(
@@ -40,4 +47,5 @@ def send_message(client, message, sys_msg=""):
             )
 
             # Get the generated text 
+        log(response.choices[0].message.content)
         return response.choices[0].message.content  

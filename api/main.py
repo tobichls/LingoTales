@@ -124,7 +124,7 @@ def user_action():
         scene, opt1, opt2, opt3 = receive_story_elements(data["panels"])
         print("opt1: " + opt1)
 
-        response = flask.jsonify({"scene": scene, "option1:": opt1, "option2": opt2, "option3": opt3})
+        response = flask.jsonify({"scene": scene, "option1": opt1, "option2": opt2, "option3": opt3})
 
         # response.headers.add('Access-Control-Allow-Origin', '*')
 
