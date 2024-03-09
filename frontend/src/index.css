@@ -9,6 +9,7 @@
   color: var(--text);
   background-color: var(--background);
 
+  box-sizing: border-box;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -86,7 +87,7 @@ button:focus-visible {
 
 input {
   border-radius: 8px;
-  border: 1px solid var(--accent);
+  border: 2px solid var(--secondary);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -104,4 +105,16 @@ input {
   display: flex;
   justify-content: center;
   gap: 1em;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.form-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }

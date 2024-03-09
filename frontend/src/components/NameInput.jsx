@@ -10,17 +10,15 @@ const NameInput = ({ nextStep, name, handleNameChange, prevStep }) => {
   };
 
   return (
-    <div>
+    <div className="form-step">
       <h2>What's your name?</h2>
-      <div>
         <input
           id="nameInput"
           type="text"
           value={currentName}
           onChange={handleChange}
         />
-      </div>
-      <div>
+      <div className="options-container">
         <button onClick={prevStep}>Previous</button>
         <button onClick={nextStep}>Next</button>
       </div>

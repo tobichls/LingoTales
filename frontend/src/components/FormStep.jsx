@@ -6,7 +6,7 @@ const FormStep = ({ nextStep, handleOptionSelect, selectedOption, options, disab
   };
 
   return (
-    <div>
+    <div className="form-step">
       <h2>{question}</h2>
       <ul>
         {options.map((option) => (
