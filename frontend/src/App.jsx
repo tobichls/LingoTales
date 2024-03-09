@@ -22,18 +22,21 @@ function App() {
     const selectedOption = event.target.innerText
     console.log(selectedOption)
 
-    setPanels(previousPanels => [...previousPanels, {
+    const newPanels = [...panels, {
       "scene": message,
       "option1": options[0],
       "option2": options[1],
       "option3": options[2],
       "userChoice": selectedOption
-    }])
+    }]
+
+    setPanels(newPanels)
 
     const data = {
       ...contextualData,
-      "panels": panels,
+      "panels": newPanels,
     }
+    console.log(data)
 
     fetch('http://127.0.0.1:5000/action', {
         method: 'POST',
