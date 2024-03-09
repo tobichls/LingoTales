@@ -1,31 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-:root[data-theme="light"] {
-  --text: #0c071d;
-  --background: #f4f3fc;
-  --primary: #ffd952;
-  --secondary: #9194ff;
-  --accent: #f97176;
-}
-:root[data-theme="dark"] {
-  --text: #e7e2f8;
-  --background: #04030c;
-  --primary: #ffba3a;
-  --secondary: #4f53d3;
-  --accent: #ee4f54;
-}
+
 :root {
   font-family: Nunito, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color: var(--text);
-  background-color: --background;
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --text: #0c071d;
+  --background: #f4f3fc;
+  --primary: #ffd952;
+  --secondary: #9194ff;
+  --secondary-light: #aeb1ff;
+  --accent: #f97176;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e7e2f8;
+    --background: #04030c;
+    --primary: #ffba3a;
+    --secondary: #4f53d3;
+    --accent: #ee4f54;
+  }
 }
 
 
@@ -61,12 +65,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--secondary);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: var(--secondary-light);
 }
 button:focus,
 button:focus-visible {
@@ -75,30 +79,22 @@ button:focus-visible {
 
 input {
   border-radius: 8px;
-  border: 1px solid #646cff;
+  border: 1px solid var(--accent);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+#selection_div {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
 }
