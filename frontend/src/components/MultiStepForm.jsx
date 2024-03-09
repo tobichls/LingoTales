@@ -77,7 +77,7 @@ const MultiStepForm = ({handleFormSubmittedState}) => {
           nextStep={nextStep}
           prevStep={prevStep}
           question="What kind of story?"
-          options={["Mystery", "Romance", "Surprise me"]}
+          options={["Mystery", "Romance", "Random"]}
           disabledOptions={[]}
           handleOptionSelect={(option) => handleOptionSelect('genre', option)}
           selectedOption={formData.genre}
