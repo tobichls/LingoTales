@@ -5,6 +5,11 @@ function App() {
   const [ options, setOptions ] = useState(["climb the gate", "walk left", "go right"])
   const [ message, setMessage ]  = useState("You walk up to the gate of a large looming mansion you ")
   const [ panels, setPanels ] = useState([])
+  const [ formSubmitted, setFormSubmitted ] = useState(false)
+
+  const handleFormSubmittedState = () => {
+    setFormSubmitted(true)
+  }
 
   const next = (event) => {
     const selectedOption = event.target.innerText
@@ -49,8 +54,7 @@ function App() {
 
   return (
     <>
-    <MultiStepForm />
-    <section>
+    {formSubmitted ? <section>
       <h2 id="main_text">{message}</h2>
       <div id="selection_div">
 
@@ -63,6 +67,7 @@ function App() {
         })}
       </div>
     </section>
+    : <MultiStepForm handleFormSubmittedState={handleFormSubmittedState} />}
 
   </>
   )

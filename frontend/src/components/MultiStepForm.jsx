@@ -3,7 +3,7 @@ import NameInput from './NameInput';
 import FormStep from "./FormStep"
 import autoAnimate from '@formkit/auto-animate';
 
-const MultiStepForm = () => {
+const MultiStepForm = ({handleFormSubmittedState}) => {
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState({
     name: '',
@@ -33,23 +33,25 @@ const MultiStepForm = () => {
 
   const handleSubmit = async () => {
     console.log(formData)
-    // try {
-    //   const response = await fetch("", {
-    //     method: "POST",
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(formData)
-    //   })
+    try {
+      const response = await fetch("", {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      })
 
-    //   if(response.ok) {
-
-    //   } else {
-    //     console.error("Error submitting form")
-    //   }
-    // } catch (error) {
-    //   console.error("Error submitting form", error)
-    // }
+      if(response.ok) {
+        handleFormSubmittedState()
+        // do stuff with response
+        console.log(response)
+      } else {
+        console.error("Error submitting form")
+      }
+    } catch (error) {
+      console.error("Error submitting form", error)
+    }
   }
 
 
