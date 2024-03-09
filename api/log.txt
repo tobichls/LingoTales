@@ -23,3 +23,9 @@
 "option2": "Warten und hoffen, dass jemand kommt, um dich zu befreien.",
 "option3": "Laut um Hilfe rufen und versuchen, jemandes Aufmerksamkeit zu erregen."
 }
+
+"scene": "You decide to go right, walking along the outer wall of the mansion. The path winds through a well-manicured garden filled with exotic plants and flowers. Up ahead, you see a small stone building, likely a gardener's shed or toolshed.",
+"option1": "Zur Hütte gehen",
+"option2": "Den Garten weiter erkunden",
+"option3": "Zurück zum Haupttor gehen"
+}

@@ -30,21 +30,32 @@ def init(system_message, backend = "claude"):
 # takes messages in the format {"role": role, "content": message}
 def send_message(client, message, sys_msg="", force_json = False):
     if not (client == None):
-        response = client.messages.create(
-            model="claude-3-sonnet-20240229",
-            max_tokens=2000,
-            temperature=0.0,
-            system=sys_msg,
-            messages=[{"role": "user", "content": message}],
-        )
+        
 
         if force_json:
-            messages.append({"role": "assistant", "content": "Sure here is the json:\n{"})
+            messages = [{"role": "user", "content": message},
+                        {"role": "assistant", "content": "Sure here is the json:\n{"}]
+            
+            response = client.messages.create(
+                model="claude-3-sonnet-20240229",
+                max_tokens=2000,
+                temperature=0.0,
+                system=sys_msg,
+                messages=messages,
+            )
+
 
             log(response.content[0].text)
             return "{" + response.content[0].text
 
         else:
+            response = client.messages.create(
+                model="claude-3-sonnet-20240229",
+                max_tokens=2000,
+                temperature=0.0,
+                system=sys_msg,
+                messages=[{"role": "user", "content": message}],
+            )
             log(response.content[0].text)
             return response.content[0].text
 
