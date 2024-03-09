@@ -76,31 +76,6 @@ app.config['PROPAGATE_EXCEPTIONS'] = False
 CORS(app)
 
 
-# example get request
-@app.route('/hello', methods=['GET'])
-def hello_world():
-    return jsonify({'message': 'Hello, World!'})
-
-
-#example post request
-@app.route('/register', methods=['POST'])
-def register_user():
-    if request.method == 'POST':
-        data = request.get_json()  # Assuming JSON data is sent
-
-        username = data.get('username')
-        password = data.get('password')
-
-        # In a real application, store this data securely in a database 
-        # after proper validation.
-
-        return jsonify({'message': 'User registration successful!'}), 200
-    else:
-        return jsonify({'error': 'Method not allowed'}), 405 
-
-
-
-
 # takes user action updates state and gets next question from llm
 @app.route("/action", methods=['POST'])
 def user_action():

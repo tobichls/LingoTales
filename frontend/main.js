@@ -18,8 +18,6 @@ function start(){
             return response.json(); 
         })
         .then(data => {
-            // Do something with the JSON data here
-            console.log(data);
             update(data);
         })
         .catch(error => {
@@ -77,9 +75,7 @@ function next(){
         return response.json(); 
     })
     .then(responseJson => {
-        // Process the JSON response from the server
-        console.log(responseJson);
-        update(responseJson)
+        update(responseJson);
     })
     .catch(error => {
         console.error('There has been a problem with your fetch operation:', error);
