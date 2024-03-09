@@ -25,7 +25,7 @@ ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
 # function to join the story element objects into a prompt
 def join_story_elements(story_elements):
 
-    prompt = "This is an interactive story where the user's character name is: BALDWIN"
+    prompt = ""
     for i,element in enumerate(story_elements):
         prompt += '\n'
         if i==0:
@@ -35,9 +35,7 @@ def join_story_elements(story_elements):
 
         prompt += element["scene"] + '\n'
         prompt += "The user has chosen to:" + element["userChoice"] + '\n'
-    prompt += "ChatGPT, please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story."
-    prompt += '\n'+"When you respond, please format it in: javascript object notation (json) containing scene, option 1, option 2, option 3. You must not wrap the JSON respnose in any kind of way."
-    # for testing
+
     return prompt
 
 # function to create the system prompt
@@ -48,7 +46,7 @@ def join_data(language, name, beginner, genre, theme):
     sys += "As users progress through the story, the app adapts the language to the user's chosen target language, creating a contextualized learning experience." + '\n'
     sys += "Please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story." + '\n'
     sys += "The scenes must be given in English and the options must be given in "  + language + '\n'
-    sys += "When you respond, you must format it in: javascript object notation (JSON) containing four properties: 'scene', 'option1', 'option2', 'option3'." + '\n'
+    sys += "When you respond, you must format it in: javascript object notation (JSON) containing four properties: 'scene', 'option1', 'option2', 'option3'. You must not wrap the JSON respnose in any kind of way." + '\n'
 
     return sys
 
@@ -111,6 +109,8 @@ client = api.init("")
 def user_action():
     if request.method == 'POST':
         data = request.get_json()
+
+        print(data)
 
         scene, opt1, opt2, opt3 = get_next_scene(data["panels"], "German", "BALDWIN", "beginner", "genre", "theme")
         print("opt1: " + opt1)
