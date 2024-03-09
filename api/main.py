@@ -8,11 +8,8 @@ import tiktoken
 
 import api
 
-
 TOKENLIMIT = 4000
 ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
-
-SYS = ""
 
 
 # file = open("key.txt", "r")
@@ -24,11 +21,10 @@ SYS = ""
 #     api_key=api_key,
 # )
 
-
 # function to join the story element objects into a prompt
 def join_story_elements(story_elements):
+    prompt = ""
 
-    prompt = "This is an interactive story where the user's character name is: BALDWIN"
     for i,element in enumerate(story_elements):
         prompt += '\n'
         if i==0:
@@ -38,25 +34,39 @@ def join_story_elements(story_elements):
 
         prompt += element["scene"] + '\n'
         prompt += "The user has chosen to:" + element["userChoice"] + '\n'
-    prompt += "ChatGPT, please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story."
-    prompt += '\n'+"When you respond, please format it in: javascript object notation (json) containing scene, option 1, option 2, option 3."
+    # prompt += '\n'+"When you respond, please format it in: javascript object notation (json) containing scene, option 1, option 2, option 3."
     # for testing
     return prompt
 
+# function to create the system prompt
+def join_data(language, name, beginner, genre, theme):
+
+    sys = "This is an interactive story where the user's character name is: " + name + '\n'
+    sys += "The user is a beginner." + '\n'
+    sys += "As users progress through the story, the app adapts the language to the user's chosen target language, creating a contextualized learning experience." + '\n'
+    sys += "Please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story." + '\n'
+    sys += "The scene should be in English and the options should be in "  + language + '\n'
+    sys += "When you respond, please format it in: javascript object notation (json) containing scene, option 1, option 2, option 3." + '\n'
+
+    return sys
+
+
 # function to receive story elements
-def receive_story_elements(story_elements):
+def get_next_scene(story_elements, language, name, beginner, genre, theme):
 
     # story_elements = json.loads(story_elements)
 
     prompt = join_story_elements(story_elements)
+    sys = join_data(language, name, beginner, genre, theme)
 
     while (check_prompt_tokens(prompt) == False):
         story_elements = story_elements[1:]
         prompt = join_story_elements(story_elements)
 
     # make gpt call
-    
-    response = api.send_message(client, prompt)
+    print(sys)
+    print(prompt)
+    response = api.send_message(client, prompt, sys_msg=sys)
     responseObject = json.loads(response)
     print(responseObject)
     return responseObject["scene"], responseObject["option1"], responseObject["option2"], responseObject["option3"]
@@ -73,6 +83,7 @@ def check_prompt_tokens(prompt):
     else:
         return True
 
+
 # function to check gpt response
 def check_gpt_response(gpt_response):
     response_dict = json.loads(gpt_response)
@@ -84,28 +95,7 @@ def check_gpt_response(gpt_response):
         or response_dict['option3'] == None):
         # send error message
         print("Error 1: GPT-3 response is invalid")
-    else:
-        return response_dict
-
-    return current_message, current_options
-
-
-# sends message to claude and updates messages
-def message_claude(message):
-
-    response = client.messages.create(
-        model="claude-3-sonnet-20240229",
-        max_tokens=2000,
-        temperature=0.0,
-        system=SYS,
-        messages=[
-            {"role": "user", "content": message}
-        ]
-    )
-
-    return response.content
-
-
+    return response_dict
 
 app = Flask(__name__)
 app.config['PROPAGATE_EXCEPTIONS'] = False
@@ -121,8 +111,11 @@ def user_action():
     if request.method == 'POST':
         data = request.get_json()
 
-        scene, opt1, opt2, opt3 = receive_story_elements(data["panels"])
-        print("opt1: " + opt1)
+        print(data)
+        print(data["panels"])
+
+        #scene, opt1, opt2, opt3 = get_next_scene(data["panels"], data["language"], data["name"], data["beginner"], data["genre"], data["theme"])
+        scene, opt1, opt2, opt3 = get_next_scene(data["panels"], "German", "BALDWIN", True, "", "")
 
         response = flask.jsonify({"scene": scene, "option1": opt1, "option2": opt2, "option3": opt3})
 
