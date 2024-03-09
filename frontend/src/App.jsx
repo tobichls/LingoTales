@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import MultiStepForm from './components/MultiStepForm'
 
 function App() {
   const [ options, setOptions ] = useState(["climb the gate", "walk left", "go right"])
@@ -48,6 +49,8 @@ function App() {
 
   return (
     <>
+    <MultiStepForm />
+    <section>
       <h2 id="main_text">{message}</h2>
       <div id="selection_div">
 
@@ -59,6 +62,7 @@ function App() {
             )
         })}
       </div>
+    </section>
 
   </>
   )
