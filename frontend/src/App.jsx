@@ -48,7 +48,7 @@ function App() {
   }
 
   const update = (data) => {
-    setMessage(data.message)
+    setMessage(data.scene)
     setOptions([data.option1, data.option2, data.option3])
   }
 

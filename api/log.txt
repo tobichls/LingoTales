@@ -1,0 +1,13 @@
+
+{
+  "scene": "You manage to climb over the gate and drop down into the overgrown garden on the other side. The mansion looms before you, its once-grand facade now weathered and dilapidated. Ivy crawls up the walls, and several windows are boarded up. An eerie silence hangs in the air, broken only by the occasional creak of the old building.",
+  "option1": "Approach the front door and try to enter the mansion",
+  "option2": "Circle around the side of the mansion, looking for another way in",
+  "option3": "Turn back and leave the premises"
+}
+{
+  "scene": "BALDWINChatGPT found themselves in a dimly lit room, surrounded by ancient tomes and dusty scrolls. The air was thick with the musty scent of knowledge long forgotten. A faint glow emanated from a pedestal in the center, upon which rested a mysterious artifact.",
+  "option1": "Approach the pedestal and examine the artifact.",
+  "option2": "Search the room for clues or hidden passages.",
+  "option3": "Attempt to leave the room and explore further."
+}
