@@ -6,30 +6,11 @@ opt2 = document.getElementById("opt2_lab");
 opt3 = document.getElementById("opt3_lab");
 
 
+SYS_MSG = ""
 
+INIT_MSG = ""
 
-
-function start(){
-    fetch('http://127.0.0.1:5000/start')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json(); 
-        })
-        .then(data => {
-            update(data);
-        })
-        .catch(error => {
-            console.error('There has been a problem with your fetch operation:', error);
-        });
-
-
-    
-}
-
-
-
+PANELS = []
 
 
 function update(data){
@@ -43,6 +24,7 @@ function update(data){
 
 
 function next(){
+    scene = text.innerHTML;
     option1 = document.getElementById("option1");
     option2 = document.getElementById("option2");
     option3 = document.getElementById("option3");
@@ -56,9 +38,12 @@ function next(){
         option = opt3.innerHTML;
     }
 
+    PANELS.push({"scene": scene,
+                "options":[opt1.innerHTML, opt2.innerHTML, opt3.innerHTML],
+                "userchoice": option})
 
-    data = {"option": option}
 
+    data = {"panels": PANELS}
 
     fetch('http://127.0.0.1:5000/action', {
         method: 'POST',
