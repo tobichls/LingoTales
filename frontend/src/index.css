@@ -130,7 +130,7 @@ input {
 
 .hover-color-shift {
   animation: color-shift 3s linear forwards;
-  background-image: linear-gradient(to right, blue, red);
+  background-image: linear-gradient(to right, var(--secondary), var(--accent));
   background-size: 200%; /* Ensure gradient covers the entire button */
   background-position: 0%; /* Start with initial color at the beginning */
 }
