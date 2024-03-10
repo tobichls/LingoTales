@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MultiStepForm from './components/MultiStepForm'
 import AnimatedButton from './components/AnimatedButton'
+import Header from "./components/Header"
 
 const api_key = "QUl6YVN5QnhWY1VrWEtuUW9VV0pvMlk1ancwVVAwdDNEaUw4VWFF"
 function getAPIKey() {
@@ -122,7 +123,7 @@ function App() {
 
 
 
-  
+
   const next = (event) => {
     const selectedOption = event.target.id
     console.log(selectedOption)
@@ -204,14 +205,14 @@ function App() {
         target: targetLanguage,
       }),
     });
-  
+
     if (!response.ok) {
       throw new Error('API request failed');
     }
-  
+
     const data = await response.json();
     const translatedText = data.data.translations[0].translatedText;
-  
+
     // // Speak the translated text
     const utterance = new SpeechSynthesisUtterance(translatedText);
 
@@ -248,29 +249,30 @@ function App() {
   //     timeout_id = null;
   //   }
 
-    
+
   // }
 
   return (
     <>
+      <Header></Header>
       {formSubmitted ? (
         <section>
           <h2 id="main_text">{message}</h2>
           <div id="selection_div">
             {options.length === 0 ? (
-               <div className="loading-indicator">Loading...</div> 
+               <div className="loading-indicator">Loading...</div>
              ) : (
               options.map((option, i) => {
                 // return AnimatedButton(option, () => {}, next, i, "blue", "red")
 
                 return (
                   <button
-                    className={`custom-animated-button`} 
+                    className={`custom-animated-button`}
                     style={{ backgroundColor: "blue"}}
                     // onMouseDown={handleMouseEnter(option, i)}
                     // onMouseUp={handleMouseLeave(i)}
                     onContextMenu={(event) => {
-                      event.preventDefault(); 
+                      event.preventDefault();
                       // toggleAnim(i, option);
                     }}
                     id={i}
@@ -279,12 +281,12 @@ function App() {
                     {option}
                   </button>
                 );
-                
-                
+
+
                 // (
-                //   <button 
-                //     key={i} 
-                //     className="option" 
+                //   <button
+                //     key={i}
+                //     className="option"
                 //     onClick={next}
                 //     id={i}
                 //     onMouseEnter={() => translateAndSpeak(option)}

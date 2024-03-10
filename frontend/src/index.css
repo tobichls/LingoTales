@@ -15,22 +15,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --text: #0c071d;
-  --background: #f4f3fc;
-  --primary: #ffd952;
-  --secondary: #9194ff;
-  --secondary-light: #aeb1ff;
-  --accent: #f97176;
+  --text: #e7e2f8;
+  --background: #04030c;
+  --primary: #ffba3a;
+  --secondary: #4f53d3;
+  --secondary-light: #6368f8;
+  --accent: #ee4f54;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #e7e2f8;
-    --background: #04030c;
-    --primary: #ffba3a;
-    --secondary: #4f53d3;
-    --accent: #ee4f54;
-  }
+header {
+  display: flex;
+  width: auto;
+  padding: 0.2em 2em;
 }
 
 
@@ -47,7 +44,7 @@ body {
   margin: 0;
   display: flex;
   min-width: 320px;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 h1 {
@@ -98,7 +95,11 @@ input {
 }
 
 #root {
-  max-width: 1280px;
+  width: 100%;
+}
+
+.main-section {
+  max-width: 500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -120,6 +121,10 @@ input {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+}
+
+#logo {
+  height: 80px;
 }
 
 .hover-color-shift {

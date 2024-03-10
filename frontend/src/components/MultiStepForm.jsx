@@ -43,7 +43,7 @@ const MultiStepForm = ({handleFormSubmittedState}) => {
   }, [parent])
 
   return (
-    <div ref={parent}>
+    <div className='main-section' ref={parent}>
       {currentStep === 1 && (
         <LangInput
           nextStep={nextStep}
