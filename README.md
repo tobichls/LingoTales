@@ -1,4 +1,4 @@
-# LingoTales Overview 📖
+# LingoTales 📖
 
 Introducing **LingoTales:** where immersive storytelling meets language learning. Our app revolutionizes the way users learn languages by blending an interactive text-based adventure with context-driven language learning. 
 
