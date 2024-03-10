@@ -121,3 +121,19 @@ input {
   flex-direction: column;
   gap: 0.5em;
 }
+
+.hover-color-shift {
+  animation: color-shift 3s linear forwards;
+  background-image: linear-gradient(to right, blue, red);
+  background-size: 200%; /* Ensure gradient covers the entire button */
+  background-position: 0%; /* Start with initial color at the beginning */
+}
+
+@keyframes color-shift {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: -100%; /* Move gradient to show final color */
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import MultiStepForm from './components/MultiStepForm'
+import AnimatedButton from './components/AnimatedButton'
 
 const api_key = "QUl6YVN5QnhWY1VrWEtuUW9VV0pvMlk1ancwVVAwdDNEaUw4VWFF"
 function getAPIKey() {
@@ -21,32 +22,42 @@ const myVoices = {
   "portuguese": 17
 }
 
+
+
+
+
 function App() {
-  const [ options, setOptions ] = useState(["climb the gate", "walk left", "go right"])
-  const [ message, setMessage ]  = useState("You walk up to the gate of a large looming mansion you ")
-  const [ nextPanels, setNextPanels] = useState([
-    {
-      "scene": "You step on an apple",
-      "option1":"Hop",
-      "option2":"Skip",
-      "option3":"Jump"
-    },
-    {
-      "scene": "You step on a pear",
-      "option1":"Hop",
-      "option2":"Skip",
-      "option3":"Jump"
-    },
-    {
-      "scene": "You step on an orange",
-      "option1":"Hop",
-      "option2":"Skip",
-      "option3":"Jump"
-    }
-  ])
+  const [ options, setOptions ] = useState([])
+  const [ message, setMessage ]  = useState("")
+  const [ nextPanels, setNextPanels] = useState([])
   const [ panels, setPanels ] = useState([])
   const [ formSubmitted, setFormSubmitted ] = useState(false)
   const [ contextualData, setContextualData ] = useState(null)
+
+  // const start = (data) => {
+  //   fetch('http://127.0.0.1:5000/start', {
+  //         method: 'POST',
+  //         mode: 'cors',
+  //         headers: {
+  //             'Content-Type': 'application/json'
+  //         },
+  //         body: JSON.stringify(data)
+  //     })
+  //     .then(response => {
+  //         if (!response.ok) {
+  //             throw new Error('Network response was not ok');
+  //         }
+  //         return response.json();
+  //     })
+  //     .then(responseJson => {
+  //         setMessage(responseJson.scene)
+  //         setOptions(responseJson.option1, responseJson.option2, responseJson.option3)
+  //     })
+  //     .catch(error => {
+  //         console.error('There has been a problem with your fetch operation:', error);
+  //     });
+  // }
+
 
   const handleFormSubmittedState = (data) => {
     setFormSubmitted(true)
@@ -57,11 +68,67 @@ function App() {
       theme: data.theme,
     } )
     chosenLanguage = data.language
+
+    fetch('http://127.0.0.1:5000/start', {
+          method: 'POST',
+          mode: 'cors',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+      })
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+          return response.json();
+      })
+      .then(responseJson => {
+          setMessage(responseJson.scene)
+          setOptions([responseJson.option1, responseJson.option2, responseJson.option3])
+          // setPanels([responseJson])
+
+
+
+          var text_data = {...data, "panels": [responseJson]}
+
+          fetch('http://127.0.0.1:5000/action', {
+                method: 'POST',
+                mode: 'cors',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(text_data)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(responseJson => {
+                update(responseJson);
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+      })
+      .catch(error => {
+          console.error('There has been a problem with your fetch operation:', error);
+      });
+
   }
 
+
+
+
+  
   const next = (event) => {
     const selectedOption = event.target.id
     console.log(selectedOption)
+    const selectedText = event.target.innerHTML
+
+
 
 
     const newPanels = [...panels, {
@@ -69,7 +136,7 @@ function App() {
       "option1": nextPanels[selectedOption].option1,
       "option2": nextPanels[selectedOption].option2,
       "option3": nextPanels[selectedOption].option3,
-      "userChoice": selectedOption
+      "userChoice": selectedText
     }]
 
     setMessage(nextPanels[selectedOption].scene)
@@ -158,27 +225,82 @@ function App() {
     window.speechSynthesis.speak(utterance);
   };
 
+  var hovering = false
+  var timeout_id = null
+
+
+
+  // const toggleAnim = (i, option) => {
+
+  //   var btn = document.getElementById(String(i))
+  //   if(btn){
+  //     btn.classList.toggle("hover-color-shift")
+  //   }
+
+  //   if(!hovering){
+  //     timeout_id = setTimeout(() => {
+  //       translateAndSpeak(option)
+  //     }, 3000);
+  //     hovering = true
+  //   }else{
+  //     hovering = false
+  //     clearTimeout(timeout_id);
+  //     timeout_id = null;
+  //   }
+
+    
+  // }
+
   return (
     <>
-      {formSubmitted ? <section>
-        <h2 id="main_text">{message}</h2>
-        <div id="selection_div">
-          {options.map((option,i) => {
-            return (
-              <button 
-                key={i} 
-                className="option" 
-                onClick={next}
-				id={i}
-                onMouseEnter={() => translateAndSpeak(option)}
-              >
-                {option}
-              </button>
-              )
-          })}
-        </div>
-      </section>
-      : <MultiStepForm handleFormSubmittedState={handleFormSubmittedState} />}
+      {formSubmitted ? (
+        <section>
+          <h2 id="main_text">{message}</h2>
+          <div id="selection_div">
+            {options.length === 0 ? (
+               <div className="loading-indicator">Loading...</div> 
+             ) : (
+              options.map((option, i) => {
+                // return AnimatedButton(option, () => {}, next, i, "blue", "red")
+
+                return (
+                  <button
+                    className={`custom-animated-button`} 
+                    style={{ backgroundColor: "blue"}}
+                    // onMouseDown={handleMouseEnter(option, i)}
+                    // onMouseUp={handleMouseLeave(i)}
+                    onContextMenu={(event) => {
+                      event.preventDefault(); 
+                      // toggleAnim(i, option);
+                    }}
+                    id={i}
+                    onClick={next}
+                  >
+                    {option}
+                  </button>
+                );
+                
+                
+                // (
+                //   <button 
+                //     key={i} 
+                //     className="option" 
+                //     onClick={next}
+                //     id={i}
+                //     onMouseEnter={() => translateAndSpeak(option)}
+                //   >
+                //     {option}handleButtonClick
+                //   </button>
+                // )
+
+
+              })
+            )}
+          </div>
+        </section>
+      ) : (
+        <MultiStepForm handleFormSubmittedState={handleFormSubmittedState} />
+      )}
     </>
   );
 
