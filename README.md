@@ -45,8 +45,9 @@ Generative AI allows for cascading plotlines. *After just 15 user interactions, 
 Listen to real-time translations of interaction options for those who need a helping hand.
 
 <br>
-
+ 
 # Demonstration
+Link to working prototype demo: [here](109.152.136.83:80)
 [EMBED DEMO VIDEO HERE]
 
 <br>
