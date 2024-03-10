@@ -10,29 +10,32 @@ Say goodbye to mundane textbooks and rote memorization. Join us in reshaping lan
 [IMAGE HERE] <br>
 Stories are initially told in English (or the user's native tongue), and they can then choose from a series of options presented in their chosen language. The next scene in the story is generated from the user's response.
 
+<br>
+
 ## Features
 [EXAMPLE SCREENSHOT HERE] <br>
 ### User influences story direction.
 Users are given multiple choices to choose how the story progresses after each scene.
-[EXAMPLE SCREENSHOT HERE] <br>
+<br>[EXAMPLE SCREENSHOT HERE] <br>
 ### Intuition based learning
 Users utilize the context of the story to organically learn what their choices mean instead of being explicitly taught definitions.
-[EXAMPLE SCREENSHOT HERE] <br>
+<br>[EXAMPLE SCREENSHOT HERE] <br>
 ### Supports any language
 Generative AI enables a huge variety of different languages as opposed to mainstream language apps offering at most a handful.
-[EXAMPLE SCREENSHOT HERE] <br>
+<br>[EXAMPLE SCREENSHOT HERE] <br>
 ### A story for everyone
 Users choose the genre they love for the story.
-[EXAMPLE SCREENSHOT HERE] <br>
+<br>[EXAMPLE SCREENSHOT HERE] <br>
 ### Practice specific vocabulary
 An category of vocabulary can be frequently and seamlessly weaved into the story.
-[EXAMPLE SCREENSHOT HERE] <br>
+<br>[EXAMPLE SCREENSHOT HERE] <br>
 ### No story will ever be the same.
-Generative AI allows for cascading plotlines. <br>
-After just 15 user interactions, there are more than 14 million unique storyline combinations.
-[EXAMPLE SCREENSHOT HERE] <br>
-### User can listen to their chosen language.
+Generative AI allows for cascading plotlines. *After just 15 user interactions, there are more than 14 million unique storyline combinations.*
+<br>[EXAMPLE SCREENSHOT HERE] <br>
+### Audio Integration
 Listen to real-time translations of interaction options for those who need a helping hand.
+
+<br>
 
 ## Technologies Used
 
@@ -43,6 +46,8 @@ Listen to real-time translations of interaction options for those who need a hel
 | `Google Cloud Translation API`| Language translation              |
 | `React.js`                    | Frontend web interface            |
 | `SpeechSynthesis Web API`     | Text-to-speech                   |
+
+<br>
 
 ## Next Steps
 
