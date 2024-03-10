@@ -32,7 +32,7 @@ function App() {
   const [ formSubmitted, setFormSubmitted ] = useState(false)
   const [ contextualData, setContextualData ] = useState(null)
 
-
+  // store submitted data for use in prompts and begin the story
   const handleFormSubmittedState = (data) => {
     setFormSubmitted(true)
     setContextualData({
@@ -60,9 +60,6 @@ function App() {
       .then(responseJson => {
           setMessage(responseJson.scene)
           setOptions([responseJson.option1, responseJson.option2, responseJson.option3])
-          // setPanels([responseJson])
-
-
 
           var text_data = {...data, "panels": [responseJson]}
 
