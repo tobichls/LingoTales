@@ -39,7 +39,7 @@ def send_message(client, message, sys_msg="", force_json = False, response_start
             response = client.messages.create(
                 model="claude-3-sonnet-20240229",
                 max_tokens=2000,
-                temperature=0.0,
+                temperature=0.3,
                 system=sys_msg,
                 messages=messages,
             )

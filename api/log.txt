@@ -1,0 +1,1134 @@
+
+
+    "scene": "You wake up one sunny morning feeling hungry. You head to the kitchen to find something to eat. On the counter you see a bowl of fresh Äpfel (apples), some Bananen (bananas), and a basket of Orangen (oranges).",
+    "option1": "Grab an Apfel (apple) to eat",
+    "option2": "Peel and eat a Banane (banana)",
+    "option3": "Slice an Orange (Orange) and have a few wedges"
+}
+
+    "scene": "You wake up in a small village in Spain. The sun is shining brightly and you can smell the aroma of fresh frutas in the air. You step outside your humble casa and see an old mujer selling naranjas, limones, and other frutas from a small puesto on the street.",
+    "option1": "Approach the fruit stand",
+    "option2": "Explore the village",
+    "option3": "Return inside your casa"
+}
+
+    "scene": "You wake up in a small village in Spain. The sun is shining brightly and you can smell the aroma of fresh frutas in the air. You step outside your humble casa and see an old mujer selling naranjas, limones, and other frutas from a small puesto on the street.",
+    "option1": "Approach the fruit stand",
+    "option2": "Explore the village",
+    "option3": "Return inside your casa"
+}
+
+    "scene": "You wake up in a small village in Spain. The sun is shining brightly and you can smell the aroma of fresh frutas in the air. You step outside your humble casa and see an old mujer selling naranjas, limones, and other frutas from a small puesto on the street.",
+    "option1": "Approach the fruit stand",
+    "option2": "Explore the village",
+    "option3": "Return inside your casa"
+}
+
+    "scene": "You wake up in a small village in Spain. The sun is shining brightly and you can smell the aroma of fresh fruit in the air. As you step outside, you see a bustling market with vendors selling all kinds of delicious fruits.",
+    "option1": "Acercarse a un puesto de manzanas",
+    "option2": "Ir a un puesto de naranjas",
+    "option3": "Explorar el resto del mercado"
+}
+
+{"scene": "You step on an apple and slip, falling backwards onto the ground. As you sit up, rubbing your sore backside, you notice a small path leading off into the woods. The trees loom tall and the path seems to disappear into the shadows under their branches. What do you do?",
+"option1": "Folgen Sie dem Pfad in den Wald.",
+"option2": "Bleiben Sie, wo Sie sind und ruhen sich aus.",
+"option3": "Kehren Sie um und gehen Sie in die entgegengesetzte Richtung."
+},
+{"scene": "You follow the path into the dark woods. The trees press in close around you and the light fades as you move deeper under the canopy of branches. Up ahead you can see a faint glow, as if from a fire or lantern. What do you do?", 
+"option1": "Gehen Sie weiter auf das Licht zu.",
+"option2": "Verlassen Sie den Wald und kehren Sie um.",
+"option3": "Rufen Sie laut um Hilfe."
+},
+{"scene": "You decide to stay put and rest for a bit after your fall. As you catch your breath, you hear faint laughter echoing through the trees. It sounds like children playing, but you can't see anyone around. What do you do?",
+"option1": "Folgen Sie den Stimmen und sehen Sie nach, woher sie kommen.",
+"option2": "Ignorieren Sie die Geräusche und machen Sie sich auf den Weg.",
+"option3": "Rufen Sie laut, um zu sehen, ob jemand antwortet."
+}
+]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is streaming through the ventana (window) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) rumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "Levantarse de la cama (Get out of bed)",
+    "option2": "Quedarse en la cama un rato más (Stay in bed a little longer)",
+    "option3": "Mirar por la ventana (Look out the window)"
+}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the ventanas (windows) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) grumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "levantarse de la cama (get out of bed)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir las cortinas (open the curtains)"
+}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the ventanas (windows) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) grumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "levantarse de la cama (get out of bed)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir las cortinas (open the curtains)"
+}
+
+    "scene": "You wake up in a small village surrounded by orchards and vineyards. The sun is shining brightly and the air is filled with the sweet scent of ripe fruit. You feel hungry and decide to go explore the village in search of something to eat.",
+    "option1": "Äpfel",
+    "option2": "Birnen",
+    "option3": "Trauben"
+}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the curtains and you can hear birds chirping outside. It's a beautiful morning.",
+    "option1": "Fenster",
+    "option2": "Bett",
+    "option3": "Tür"
+}
+
+{"scene": "You decide to open the window (Fenster). A cool breeze blows into the room, carrying the fresh scent of flowers from the garden outside. You take a deep breath of the crisp morning air and feel refreshed and ready to start your day.",
+"option1": "Gehen Sie in den Garten",
+"option2": "Machen Sie sich fertig für den Tag",
+"option3": "Bleiben Sie im Bett und dösen Sie noch etwas"
+},
+{"scene": "You decide to stay in bed (Bett) a little longer. The soft sheets feel so cozy and inviting. As you snuggle back under the covers, you hear your stomach rumble, reminding you that you haven't had breakfast yet.",
+"option1": "Stehen Sie auf und machen Sie sich ein Frühstück",
+"option2": "Rufen Sie nach jemandem, der Ihnen Frühstück ans Bett bringt",
+"option3": "Ignorieren Sie Ihren Hunger und schlafen Sie noch etwas länger"
+},
+{"scene": "Feeling adventurous, you decide to go through the door (Tür). You find yourself in a long, dimly lit hallway. The walls are lined with strange paintings and artifacts. At the end of the hall, you can see a faint light coming from an open doorway.",
+"option1": "Gehen Sie durch die offene Tür am Ende des Ganges",
+"option2": "Untersuchen Sie die seltsamen Gemälde und Artefakte an den Wänden",
+"option3": "Kehren Sie in Ihr Schlafzimmer zurück, wo es sicher ist"
+}
+]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the ventanas (windows) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) grumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "levantarse de la cama (get out of bed)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir las cortinas (open the curtains)"
+}
+
+        {"scene": "You get out of bed and stretch your arms above your head. Your feet feel the soft carpet beneath them as you make your way to the kitchen. What would you like for breakfast?",
+        "option1": "Zubereiten Sie sich ein Omelett mit Gemüse.",
+        "option2": "Machen Sie sich eine Schüssel mit Müsli und Milch.",
+        "option3": "Toasten Sie ein paar Scheiben Brot und bestreichen Sie sie mit Marmelade."
+        },
+        {"scene": "You snuggle back under the warm blankets and close your eyes again. Just a few more minutes of sleep couldn't hurt. Suddenly, you hear a loud CRASH from the kitchen! It sounds like something fell and broke.",
+        "option1": "Springen Sie aus dem Bett, um nachzusehen, was los ist.", 
+        "option2": "Ziehen Sie die Decke über Ihren Kopf und ignorieren Sie den Lärm.",
+        "option3": "Rufen Sie laut: 'Ist da jemand?'"
+        },
+        {"scene": "You walk over to the window and pull back the curtains. Bright sunlight fills the room. Outside, you can see neighbors tending to their gardens and children playing on the sidewalk. A cool breeze blows in through the open window.",
+        "option1": "Öffnen Sie das Fenster weiter, um die frische Luft hereinzulassen.",
+        "option2": "Schließen Sie die Vorhänge wieder, da das Licht zu grell ist.",
+        "option3": "Winken Sie den Nachbarn freundlich zu."
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the ventanas (windows) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) grumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "levantarse de la cama (get out of bed)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir las cortinas (open the curtains)"
+}
+
+        {"scene": "You get out of bed and stretch your arms above your head. Your feet feel the soft carpet beneath them as you make your way to the kitchen. What would you like for breakfast?",
+        "option1": "Zubereiten Sie sich ein Omelett mit Gemüse.",
+        "option2": "Machen Sie sich eine Schüssel mit Müsli und Milch.",
+        "option3": "Toasten Sie ein paar Scheiben Brot und bestreichen Sie sie mit Marmelade."
+        },
+        {"scene": "You snuggle back under the warm blankets and close your eyes again. Just a few more minutes of sleep couldn't hurt. Suddenly, you hear a loud CRASH from the kitchen! It sounds like something fell and broke.",
+        "option1": "Springen Sie aus dem Bett, um nachzusehen, was los ist.", 
+        "option2": "Ziehen Sie die Decke über Ihren Kopf und ignorieren Sie den Lärm.",
+        "option3": "Rufen Sie laut: 'Ist da jemand?'"
+        },
+        {"scene": "You walk over to the window and pull back the curtains. Bright sunlight fills the room. Outside, you can see neighbors tending to their gardens and children playing on the sidewalk. A cool breeze blows in through the open window.",
+        "option1": "Öffnen Sie das Fenster weiter, um die frische Luft hereinzulassen.",
+        "option2": "Schließen Sie die Vorhänge wieder, da das Licht zu grell ist.",
+        "option3": "Winken Sie den Nachbarn freundlich zu."
+        }
+    ]}
+
+        {"scene": "You open the window wider, letting the fresh spring breeze fill the room. The scent of freshly bloomed flowers wafts in. You take a deep breath, feeling refreshed and energized by the pleasant weather.",
+        "option1": "Gehen Sie nach draußen und begrüßen Sie Ihre Nachbarn.",
+        "option2": "Bleiben Sie drinnen und machen Sie sich einen Tee oder Kaffee.",
+        "option3": "Setzen Sie sich ans Fenster und beobachten Sie die vorbeigehenden Leute."
+        },
+
+        {"scene": "You close the curtains, blocking out the bright sunlight. The room becomes dim and cool again. You feel a bit disappointed to be missing out on such a beautiful day outside.",
+        "option1": "Öffnen Sie die Vorhänge wieder, um das Sonnenlicht hereinzulassen.",
+        "option2": "Machen Sie es sich auf der Couch gemütlich und lesen Sie ein Buch.",
+        "option3": "Beschließen Sie, einen Spaziergang zu machen und die frische Luft zu genießen."
+        },
+
+        {"scene": "You wave cheerfully at your neighbors outside. A few wave back with friendly smiles. You feel a warm sense of community seeing the familiar faces you've lived beside for years.",
+        "option1": "Gehen Sie nach draußen und unterhalten Sie sich mit Ihren Nachbarn.",
+        "option2": "Bleiben Sie drinnen, aber öffnen Sie das Fenster, um die Gespräche draußen mitzubekommen.", 
+        "option3": "Ziehen Sie sich zurück ins Haus und machen Sie sich einen Snack in der Küche."}
+    ]}
+
+{"scene": "You wave cheerfully at your neighbors outside. A few wave back with friendly smiles. You feel a warm sense of community seeing the familiar faces you've lived beside for years. As you look around your cozy home, you notice a pile of bills and letters on the kitchen counter that need attending to.",
+"option1": "Die Rechnungen bezahlen",
+"option2": "Einen Brief an einen alten Freund schreiben",
+"option3": "Einen Spaziergang durch die Nachbarschaft machen"
+},
+{"scene": "You decide to pay the bills first to get that task out of the way. Sorting through the stack, you write out checks for the utilities, cable, and credit card payments. With that taken care of, a weight feels lifted from your shoulders. The rest of your day is free to do as you please.",
+"option1": "Fernsehen schauen",
+"option2": "Ein Buch lesen", 
+"option3": "In den Garten gehen und die Blumen gießen"
+},
+{"scene": "Feeling nostalgic, you decide to write a letter to an old friend you haven't spoken to in years. You gather paper, an envelope, and a pen from the desk drawer. As you begin writing, fond memories of your past friendship come flooding back. You find yourself smiling as you recount the many good times you shared together long ago.",
+"option1": "Über aktuelle Ereignisse in Ihrem Leben schreiben",
+"option2": "Einige witzige Geschichten aus der Vergangenheit aufschreiben",
+"option3": "Fragen, wie es Ihrem Freund heutzutage ergeht"
+}
+]}
+
+{"scene": "You open the window to let in the fresh air and sounds from outside. Laughter from the children playing drifts in along with the scent of freshly mowed grass. You can hear neighbors chatting as they work in their gardens, enjoying the beautiful day.",
+"option1": "Gehen Sie nach draußen und begrüßen Sie Ihre Nachbarn.",
+"option2": "Bleiben Sie drinnen, aber winken Sie den Nachbarn freundlich zu.",
+"option3": "Schließen Sie das Fenster wieder, da es zu laut ist."
+},
+{"scene": "You wave to your neighbors from the open window. They smile and wave back, calling out friendly greetings. Feeling connected to your community, you relax and listen to the sounds of people going about their day outside. The warm breeze carries the scent of blooming flowers.",  
+"option1": "Rufen Sie den Nachbarn etwas Nettes zu.",
+"option2": "Schließen Sie das Fenster und machen Sie es sich gemütlich drinnen.", 
+"option3": "Gehen Sie nach draußen und schließen Sie sich den Nachbarn an."
+},
+{"scene": "Staying inside with the window open, you can clearly make out conversations happening outside. Mrs. Thompson is chatting with her daughter about planting marigolds. Mr. Rodriguez calls out to his son playing catch, reminding him to keep the ball away from his garden. You feel immersed in the lively community around you.",
+"option1": "Rufen Sie Mrs. Thompson zu und fragen Sie nach Gartentipps.",
+"option2": "Schließen Sie das Fenster, um die Geräusche auszublenden und Ruhe zu haben.",
+"option3": "Gehen Sie nach draußen und erkundigen Sie sich bei den Nachbarn nach Neuigkeiten."
+}
+]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the ventanas (windows) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) grumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "levantarse de la cama (get out of bed)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir las cortinas (open the curtains)"
+}
+
+        {"scene": "You get out of bed and stretch your arms above your head. Your feet feel the soft carpet beneath them as you make your way to the kitchen. What would you like for breakfast?",
+        "option1": "Zubereiten Sie sich ein Omelett mit Gemüse.",
+        "option2": "Machen Sie sich eine Schüssel mit Müsli und Milch.",
+        "option3": "Toasten Sie ein paar Scheiben Brot und bestreichen Sie sie mit Marmelade."
+        },
+        {"scene": "You snuggle back under the warm blankets, enjoying the comfort of your bed. After a little while, you start to feel restless. What would you like to do next?", 
+        "option1": "Stehen Sie auf und machen Sie sich fertig für den Tag.",
+        "option2": "Greifen Sie nach Ihrem Smartphone und scrollen Sie durch die sozialen Medien.",
+        "option3": "Schließen Sie die Augen und versuchen Sie, noch ein wenig zu schlafen."
+        },
+        {"scene": "You walk over to the window and pull back the curtains, letting the bright morning sunlight stream into the room. Looking outside, you see a beautiful day. What would you like to do?",
+        "option1": "Öffnen Sie das Fenster, um die frische Luft hereinzulassen.",
+        "option2": "Ziehen Sie sich an und gehen Sie hinaus, um einen Spaziergang zu machen.", 
+        "option3": "Bleiben Sie drinnen und lesen Sie ein Buch oder schauen Sie fern."
+        }
+    ]}
+
+        {"scene": "You decide to get up and start your day. You stretch and yawn as you throw off the covers. Looking around your cozy bedroom, you wonder what adventures await you today.",
+        "option1": "Machen Sie sich fertig und verlassen Sie das Haus für einen Spaziergang.",
+        "option2": "Bereiten Sie sich ein gesundes Frühstück zu, um den Tag mit Energie zu beginnen.",
+        "option3": "Setzen Sie sich an Ihren Schreibtisch und erledigen Sie einige Aufgaben oder Hausaufgaben."
+        },
+        {"scene": "Grabbing your phone, you settle back into the warm bed and start scrolling through your social media feeds. Time passes quickly as you get lost in the endless stream of posts, videos, and updates from friends and influencers.",
+        "option1": "Schließen Sie die Apps und beschließen, produktiver zu sein.",
+        "option2": "Kommentieren und liken Sie einige Posts, um mit Ihren Freunden in Kontakt zu bleiben.", 
+        "option3": "Öffnen Sie eine neue App und beginnen Sie, ein unterhaltsames Spiel zu spielen."
+        },
+        {"scene": "You snuggle deeper under the covers, letting your eyes drift shut again. The warmth and comfort of your bed is so inviting, you can feel yourself starting to doze off once more.",
+        "option1": "Zwingen Sie sich, aufzustehen und den Tag zu beginnen.",
+        "option2": "Geben Sie nach und schlafen Sie noch ein paar Stunden weiter.",
+        "option3": "Hören Sie sich ein entspannendes Hörbuch oder Podcast an, während Sie im Bett liegen."
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. The sun is shining through the window and the birds are chirping outside. You stretch and look around your room.",
+    "opción1": "levantarse de la cama",
+    "opción2": "quedarse en la cama",
+    "opción3": "abrir las cortinas"
+}
+
+    "scene": "You wake up in your bed. The sun is shining through the window. It's a beautiful morning.",
+    "option1": "levantarse de la cama",
+    "option2": "quedarse en la cama",
+    "option3": "mirar por la ventana"
+}
+
+        {"scene": "You decide to get out of bed. As you stretch and yawn, you notice your room is quite messy with clothes and books scattered everywhere. What would you like to do next?",
+        "option1": "Aufräumen und Ihr Zimmer säubern",
+        "option2": "Frühstück machen",
+        "option3": "Sich anziehen und nach draußen gehen"
+        },
+        {"scene": "You decide to stay in bed a little longer. As you lay there, you hear birds chirping outside your window. The warm sun feels nice on your face. After a while, you start to get hungry. What would you like to do?",
+        "option1": "Aufstehen und frühstücken",
+        "option2": "Noch ein bisschen länger im Bett bleiben",
+        "option3": "Lesen oder fernsehen im Bett"
+        },
+        {"scene": "You walk over to the window and look outside. The neighborhood looks peaceful with trees gently blowing in the breeze. A few people are out walking their dogs. You take a deep breath of the fresh morning air. What would you like to do now?", 
+        "option1": "Sich anziehen und nach draußen gehen",
+        "option2": "Frühstück machen",
+        "option3": "Aufräumen und Ihr Zimmer säubern"
+        }
+    ]}
+
+        {"scene": "You decide to get up and have breakfast. You make your way to the kitchen and open the fridge, wondering what to eat.",
+        "option1": "Spiegeleier und Speck machen",
+        "option2": "Eine Schüssel Müsli mit Milch und Obst essen", 
+        "option3": "Einen Smoothie aus frischen Früchten mixen"
+        },
+        {"scene": "You decide to stay in bed a little longer. The warm sun continues to shine through the window as the birds happily chirp away outside. After a while, your stomach starts rumbling, reminding you that you're getting quite hungry.",
+        "option1": "Aufstehen und frühstücken",
+        "option2": "Versuchen, noch ein wenig zu schlafen",
+        "option3": "Etwas aus dem Nachtschrank naschen"
+        },
+        {"scene": "You grab a book from your nightstand and start reading in bed. The story quickly draws you in and you find yourself getting lost in its world. Some time passes before you start feeling peckish.",
+        "option1": "Das Buch zur Seite legen und aufstehen zum Frühstücken",
+        "option2": "Weiterlesen und später etwas essen",
+        "option3": "Beim Lesen einen Snack aus der Nachtischschublade naschen"
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sunlight filters in through the window, casting a warm glow over the room. You stretch and look around, taking in the familiar surroundings.",
+    "option1": "cama",
+    "option2": "ventana",
+    "option3": "armario"
+}
+
+{"scene": "You decide to get out of bed (cama). As your feet touch the soft carpet, you feel refreshed and ready to start your day. You walk over to the window (ventana) and gaze outside, admiring the beautiful morning view of your neighborhood. Birds are chirping and a gentle breeze rustles the leaves on the trees. You take a deep breath of the crisp morning air.",
+"option1": "Öffnen Sie das Fenster, um die frische Luft hereinzulassen",
+"option2": "Ziehen Sie sich an und verlassen Sie das Schlafzimmer",
+"option3": "Gehen Sie zurück ins Bett und schlafen Sie noch ein wenig"
+},
+{"scene": "Intrigued by the bright sunlight streaming through the window (ventana), you decide to take a closer look. You pull back the curtains and are greeted by a stunning view of a lush garden in full bloom. Colorful flowers sway gently in the breeze, and a small fountain trickles peacefully in the center. You can't help but feel a sense of tranquility wash over you.",
+"option1": "Öffnen Sie das Fenster, um den Duft der Blumen zu genießen",
+"option2": "Verlassen Sie das Schlafzimmer und gehen Sie in den Garten",
+"option3": "Schließen Sie die Vorhänge und kehren Sie zum Bett zurück"
+},
+{"scene": "Your gaze falls upon the old wardrobe (armario) in the corner of the room. It's been in your family for generations, and you can't help but wonder what secrets it might hold. Curiosity gets the better of you, and you decide to take a look inside. As you open the doors, a musty scent greets you, but you also notice something peculiar – a small, ornate key lying on the bottom.",
+"option1": "Heben Sie den Schlüssel auf und untersuchen Sie ihn genauer",
+"option2": "Ignorieren Sie den Schlüssel und schließen Sie die Tür des Schranks wieder",
+"option3": "Verlassen Sie das Schlafzimmer und erzählen Sie jemandem von Ihrem Fund"
+}
+]}
+
+  "scene": "You wake up in your bedroom. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+  "option1": "levantarse de la cama",
+  "option2": "quedarse en la cama",
+  "option3": "abrir la ventana"
+}
+
+
+{"scene": "You decide to get out of bed. As your feet touch the soft carpet, you feel refreshed and ready to start your day. Looking around your cozy bedroom, you notice your clothes neatly folded on the chair and your backpack resting against the wall. What would you like to do next?",
+"option1": "Sich anziehen",
+"option2": "Den Rucksack packen",
+"option3": "Das Zimmer verlassen"
+},
+
+{"scene": "You snuggle deeper under the warm blankets, enjoying the peaceful morning. Through the window, you can see trees gently swaying in the breeze. The chirping of birds and the soft rustle of leaves fill the air with a calming melody. For now, you decide to relish this tranquil moment a little longer. What would you like to do next?",
+"option1": "Weiterschlafen",
+"option2": "Ein Buch lesen", 
+"option3": "Aufstehen"
+},
+
+{"scene": "You walk over to the window and unlatch it, letting the fresh morning air fill your lungs. The scent of blooming flowers wafts in, and you can see the neighborhood slowly coming to life. Children are playing in the distance, and a few joggers pass by on the sidewalk. With the window open, the world seems full of possibilities. What would you like to do next?",
+"option1": "Aus dem Fenster schauen",
+"option2": "Sich fertig machen",
+"option3": "Nach draußen gehen"
+}
+
+]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sunlight is peeking through the curtains. You stretch and look around your familiar surroundings.",
+    "option1": "Fenster",
+    "option2": "Bett",
+    "option3": "Tür"
+}
+
+{"scene":"You decide to open the window and let in some fresh morning air. As you pull back the curtains, you see your neighbor tending to their garden. The smell of freshly turned soil and blooming flowers fills your nostrils. You take a deep breath and feel refreshed.",
+"option1":"Guten Morgen sagen",
+"option2":"Aus dem Fenster schauen",
+"option3":"Das Fenster schließen"
+},
+{"scene":"Feeling lazy, you decide to stay in bed a little longer. You snuggle back under the covers and close your eyes. Just a few more minutes of rest before starting your day. As you start to drift back to sleep, you hear a noise coming from downstairs.",
+"option1":"Aufstehen und nachsehen",
+"option2":"Ignorieren und weiterschlafen",
+"option3":"Rufen und fragen wer da ist"
+},
+{"scene":"You get out of bed and make your way to the door. Opening it, you peek out into the hallway. The smell of freshly brewed coffee wafts up from downstairs. Your stomach rumbles, reminding you that you haven't eaten breakfast yet. You hear the sounds of your family starting their morning in the kitchen below.",
+"option1":"Runter in die Küche gehen", 
+"option2":"Zuerst duschen gehen",
+"option3":"Zurück ins Bett gehen und später runter kommen"
+}
+]}
+
+  "scene": "You wake up in the morning in your cozy bedroom. The sun is shining through the window and you can hear birds chirping outside. You stretch and get out of your cama (bed).",
+  "opción1": "la almohada (pillow)",
+  "opción2": "la sábana (sheet)",
+  "opción3": "el edredón (comforter)"
+}
+
+    "scene": "You wake up in your bedroom. The sunlight is peeking through the curtains and you can hear birds chirping outside. It's a beautiful morning.",
+    "option1": "levantarse de la cama",
+    "option2": "quedarse en la cama",
+    "option3": "abrir las cortinas"
+}
+
+{"scene": "You decide to get out of bed. As you stretch and your feet hit the floor, you feel refreshed and ready to start your day. Looking around your cozy bedroom, you wonder what adventures await you today.",
+"option1": "Machen Sie sich fertig für den Tag",
+"option2": "Gehen Sie in die Küche, um zu frühstücken",
+"option3": "Öffnen Sie das Fenster, um frische Luft hereinzulassen"
+},
+{"scene": "The warm blankets feel so comforting and you're feeling lazy this morning. As you snuggle back into the pillows, you hear your stomach start to rumble. Part of you wants to doze off again, but another part is getting hungry.",
+"option1": "Stehen Sie endlich auf",
+"option2": "Bestellen Sie Frühstück ans Bett",
+"option3": "Dösen Sie noch ein wenig"
+},
+{"scene": "You walk over and pull back the curtains, letting the bright sunlight stream into the room. The world outside looks so vibrant and alive. Looking out onto the street below, you see people going about their morning routines. Some walking dogs, others grabbing coffee. You feel a sense of excitement for the possibilities the day could bring.",
+"option1": "Machen Sie sich fertig, um nach draußen zu gehen",
+"option2": "Bleiben Sie drinnen und machen Sie es sich gemütlich",
+"option3": "Öffnen Sie das Fenster, um die frische Luft zu genießen"
+}
+]}
+
+"scene": "You wake up in the morning in your cozy bedroom. The sun is shining through the window and you can hear birds chirping outside. You stretch and look around your room.",
+"option1": "Bett",
+"option2": "Fenster",
+"option3": "Kleiderschrank"
+}
+{"scene": "You decide to stay in bed a little longer and enjoy the warmth and comfort of your cozy bed. As you snuggle back under the covers, you hear your stomach rumbling, reminding you that you haven't had breakfast yet.", "option1": "Aufstehen und frühstücken", "option2": "Noch etwas länger im Bett bleiben", "option3": "Dein Handy checken und online gehen"}, {"scene": "Curious about the beautiful day outside, you get up and walk over to the window. You pull back the curtains and are greeted by a bright, sunny morning. The trees are swaying gently in the breeze and you can see people out for a morning stroll.", "option1": "Das Fenster öffnen und die frische Luft genießen", "option2": "Dich anziehen und nach draußen gehen", "option3": "Zurück ins Bett gehen und weiterschlafen"}, {"scene": "You make your way over to your closet and open the doors, revealing your collection of clothes and outfits. You ponder what to wear for the day, considering the beautiful weather outside.", "option1": "Etwas Bequemes für drinnen anziehen", "option2": "Etwas zum Ausgehen anziehen", "option3": "Deine Lieblings-Pyjamas wieder anziehen"}]}
+
+    "scene": "You wake up in your cozy bedroom. The sun is shining through the ventana (window) and you can hear pájaros (birds) chirping outside. It's a beautiful morning in your hogar (home).",
+    "option1": "levantarse (get up)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir la ventana (open the window)"
+}
+
+
+{"scene": "You decide to get up and start your day. As you get out of bed, you notice your stomach growling. It's been a while since you've eaten breakfast.",
+"option1": "Gehen Sie in die Küche, um etwas zu essen zu machen",
+"option2": "Machen Sie zuerst ein paar Übungen",
+"option3": "Duschen Sie zuerst, bevor Sie frühstücken"
+},
+
+{"scene": "You snuggle back under the warm blankets, enjoying the peaceful morning. Through the window, you can see the trees gently swaying in the breeze. You feel completely relaxed and content.",  
+"option1": "Lesen Sie ein Buch, während Sie im Bett liegen",
+"option2": "Schlafen Sie noch ein paar Stunden weiter",
+"option3": "Bestellen Sie Frühstück im Bett vom Zimmerservice"
+},
+
+{"scene": "You get up and walk over to the window, opening it to let in the fresh morning air. The chirping of the birds and the rustling of the trees fills the room. You take a deep breath, enjoying the crisp air.",
+"option1": "Gehen Sie nach draußen und machen Sie einen Spaziergang",
+"option2": "Machen Sie ein paar Dehnübungen am offenen Fenster",
+"option3": "Setzen Sie sich am Fenster und beobachten Sie die Natur"}
+
+]}
+
+    "scene": "You wake up in your cozy bedroom. The sun is shining through the curtains and you can hear birds chirping outside. It's a beautiful morning.",
+    "option1": "Bett",
+    "option2": "Fenster",
+    "option3": "Tür"
+}
+
+{"scene": "You decide to stay in bed for a little while longer. You snuggle back under the warm covers and enjoy the peaceful morning. After a few minutes, you start to feel hungry.",
+"option1": "Frühstück machen",
+"option2": "Aufstehen und duschen",
+"option3": "Weiterschlafen"
+},
+{"scene": "You get up and walk over to the window. You pull back the curtains and open it, letting in the fresh morning air. The view outside is beautiful - a lush green garden with colorful flowers. A few birds fly by.",
+"option1": "Aus dem Fenster schauen",
+"option2": "Zurück ins Bett gehen", 
+"option3": "Rausgehen in den Garten"
+},
+{"scene": "You decide to get up and head for the door. You open it and step out into the hallway. To your left is the bathroom, to your right is the staircase leading downstairs. You can also smell something delicious coming from the kitchen.",
+"option1": "Ins Badezimmer gehen",
+"option2": "Die Treppe hinuntergehen",
+"option3": "Zurück ins Schlafzimmer gehen"
+}
+]}
+
+    "scene": "You wake up in your cozy bedroom. The sun is shining through the ventanas (windows) and you can hear the birds chirping outside. It's a beautiful morning.",
+    "option1": "Salir de la cama (Get out of bed)",
+    "option2": "Quedarse en la cama (Stay in bed)",
+    "option3": "Abrir las cortinas (Open the curtains)"
+}
+
+        {"scene": "You decide to get out of bed and start your day. As you stretch and yawn, you notice a piece of paper on your nightstand with some scribbled writing on it. It looks like a note but you can't make out what it says from here.",
+        "option1": "Lesen Sie die Notiz",
+        "option2": "Ignorieren Sie die Notiz und gehen Sie ins Badezimmer",
+        "option3": "Legen Sie die Notiz zur Seite und machen Sie sich für den Tag fertig"
+        },
+        {"scene": "You decide to stay cozy under the warm blankets for a little while longer. You close your eyes and start drifting back to sleep when you hear a loud crash from downstairs! It sounds like something heavy fell and broke.",
+        "option1": "Bleiben Sie im Bett und ignorieren Sie den Lärm",
+        "option2": "Rufen Sie nach unten und fragen Sie, was los ist", 
+        "option3": "Stehen Sie auf und gehen Sie nach unten, um nachzusehen, was passiert ist"
+        },
+        {"scene": "You get up and walk over to the window, pulling back the curtains. The bright sunlight fills the room as you gaze outside. That's when you notice something strange - there are no cars on the street and no people out walking around. The entire neighborhood looks abandoned and deserted!",
+        "option1": "Bleiben Sie in Ihrem Zimmer, wo es sicher ist",
+        "option2": "Gehen Sie nach draußen und erkunden Sie die verlassene Nachbarschaft",
+        "option3": "Versuchen Sie, jemanden per Telefon zu erreichen und herauszufinden, was los ist"
+        }
+    ]}
+
+"scene": "You wake up in your cozy bedroom. The morning sunlight is peeking through the curtains. You stretch and look around the room.",
+"opción1": "cama",
+"opción2": "ventana",
+"opción3": "armario"
+}
+
+    "scene": "You wake up in your bed. The sun is shining through the ventana (window) and you can hear pájaros (birds) chirping outside. It's a beautiful morning.",
+    "option1": "levantarse (get up)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "mirar por la ventana (look out the window)"
+}
+
+{"scene": "You decide to get up out of bed. As your feet touch the cool floor, you stretch your arms above your head and let out a big yawn. Looking around your bedroom, everything seems to be in its usual place. What would you like to do next?",
+"option1": "Machen Sie sich fertig für den Tag",
+"option2": "Gehen Sie zum Kühlschrank und frühstücken Sie",
+"option3": "Öffnen Sie das Fenster und atmen Sie die frische Luft ein"
+},
+{"scene": "You pull the warm covers back over your body and snuggle deeper into the soft mattress. The birds seem to be singing just for you on this pleasant morning. After a few minutes of enjoying the tranquility, you start to feel restless. What would you like to do now?", 
+"option1": "Stehen Sie endlich auf",
+"option2": "Schließen Sie die Augen und versuchen Sie, wieder einzuschlafen",
+"option3": "Greifen Sie nach Ihrem Telefon und scrollen Sie durch die sozialen Medien"
+},
+{"scene": "You walk over to the window and gaze outside. The sun is shining brightly, and you can see a few puffy white clouds lazily drifting across the blue sky. In your neighbor's yard, you notice their dog digging happily in the garden. It looks like it will be another beautiful day. What would you like to do next?",
+"option1": "Öffnen Sie das Fenster und lassen Sie die frische Luft herein",
+"option2": "Ziehen Sie sich an und gehen Sie nach draußen",
+"option3": "Gehen Sie zurück ins Bett und machen Sie es sich gemütlich"
+}
+]}
+
+  "scene": "You wake up in the morning in your cozy bedroom. The sun is shining through the window and you can hear the birds chirping outside. You stretch and look around your room.",
+  "opción1": "cama",
+  "opción2": "armario",
+  "opción3": "espejo"
+}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the Fenster (window). You can hear birds chirping outside. What would you like to do first?",
+    "option1": "Verlassen (leave)",
+    "option2": "Bleiben (stay)",
+    "option3": "Schlafen (sleep)"
+}
+{"scene":"You decide to leave your bedroom. As you open the door, you are greeted by the delicious smell of freshly brewed coffee coming from the kitchen. Your stomach rumbles, reminding you that you haven't eaten anything yet.","option1":"Gehen Sie in die Küche (Go to the kitchen)","option2":"Gehen Sie ins Badezimmer (Go to the bathroom)","option3":"Gehen Sie nach draußen (Go outside)"},{"scene":"You decide to stay in your cozy bed a little while longer. The warm sunlight and singing birds make you feel relaxed and content. However, after a few minutes, you start to feel restless and your mind begins to wander.","option1":"Stehen Sie auf (Get up)","option2":"Lesen Sie ein Buch (Read a book)","option3":"Hören Sie Musik (Listen to music)"},{"scene":"You pull the covers back over your head and drift back into a deep, dreamless sleep. Some time later, you are awoken by a loud knocking at your door. 'Baldwin! Are you still asleep? It's almost noon!' your friend calls out.","option1":"Rufen Sie zurück 'Ich komme!' (Call back 'I'm coming!')","option2":"Ignorieren Sie es und schlafen Sie weiter (Ignore it and keep sleeping)","option3":"Stehen Sie auf und öffnen Sie die Tür (Get up and open the door)"}]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains and you can hear the birds chirping outside. It's a beautiful day to start a new adventure!",
+    "option1": "Bett",
+    "option2": "Fenster",
+    "option3": "Tür"
+}
+
+
+{"scene": "You decide to stay in bed a little longer, basking in the warmth and comfort of your cozy blankets. As you lay there, you start to wonder what kind of adventure awaits you today. The possibilities seem endless and exciting.",
+"option1": "Aufstehen und sich anziehen",
+"option2": "Noch ein bisschen schlafen",
+"option3": "Über die Abenteuer nachdenken, die Sie haben könnten"
+},
+
+{"scene": "Curiosity gets the better of you and you get up to peek outside the window. The view takes your breath away - a vast, lush forest stretches out before you, the trees gently swaying in the morning breeze. You can't help but feel a sense of wonder and excitement about exploring this beautiful wilderness.",
+"option1": "Das Fenster öffnen und die frische Luft einatmen",
+"option2": "Sich anziehen und nach draußen gehen",
+"option3": "Zurück ins Bett gehen und weiterschlafen"
+},
+
+{"scene": "You throw off the covers and head straight for the door, eager to begin your new adventure. As you open it, you're greeted by a warm, inviting hallway. Family photos line the walls, reminding you of all the wonderful memories you've made so far. But now, it's time to create new ones.",
+"option1": "Die Treppe hinuntergehen und das Haus verlassen",
+"option2": "In die Küche gehen und frühstücken",
+"option3": "Die Familienfotos näher betrachten und in Erinnerungen schwelgen"
+}
+
+]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is streaming through the ventana (window) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) grumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "levantarse de la cama (get out of bed)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "abrir la ventana (open the window)"
+}
+
+ {"scene": "You decide to get out of bed. Your feet touch the soft carpet and you stretch your arms out wide, letting out a big yawn. Looking around your bedroom, you notice your clothes from yesterday are still on the floor where you left them. What would you like to do next?",
+ "option1": "Aufräumen und sich anziehen",
+ "option2": "Direkt nach unten zum Frühstück gehen",
+ "option3": "Noch ein paar Minuten auf dem Bett sitzen bleiben"
+ },
+ {"scene": "You snuggle back under the warm blankets, enjoying the comfort of your bed. Through the window, you can hear the birds singing their cheerful morning songs. Your stomach grumbles again, becoming harder to ignore. What would you like to do?",
+ "option1": "Endlich aufstehen und frühstücken",
+ "option2": "Noch ein bisschen länger liegenbleiben",
+ "option3": "Einen Snack aus der Nachtischschublade holen"
+ },
+ {"scene": "You walk over and open the window, letting the fresh morning air fill your bedroom. You take a deep breath, enjoying the crisp scent of dew on the grass and blooming flowers. In the distance, you can hear the faint sounds of your neighborhood starting their day. What would you like to do next?", 
+ "option1": "Sich anziehen und nach unten gehen",
+ "option2": "Aus dem Fenster schauen und die Aussicht genießen",
+ "option3": "Das Fenster wieder schließen und sich hinlegen"
+ }
+]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight streams through the ventana (window) and you can hear pájaros (birds) chirping outside. Your estómago (stomach) rumbles, reminding you it's time for desayuno (breakfast).",
+    "option1": "Levantarse de la cama (Get out of bed)",
+    "option2": "Quedarse en la cama (Stay in bed)",
+    "option3": "Mirar por la ventana (Look out the window)"
+}
+
+        {"scene": "You get out of bed and stretch your arms above your head. Your stomach rumbles again, urging you to head to the kitchen for breakfast. What would you like to eat?",
+        "option1": "Eier und Speck",
+        "option2": "Müsli mit Obst",
+        "option3": "Pfannkuchen"
+        },
+        {"scene": "You pull the covers back over your head, blocking out the morning sunlight. Just a few more minutes of sleep couldn't hurt. Suddenly, you hear a loud BANG! downstairs. It sounds like someone has broken in!",
+        "option1": "Leise unter der Bettdecke bleiben", 
+        "option2": "Vorsichtig aus dem Bett aufstehen und nachsehen",
+        "option3": "Laut um Hilfe rufen"
+        },
+        {"scene": "You get up and walk over to the window, pulling back the curtains. Outside, you see neighbors tending to their gardens and children playing on the sidewalk. A squirrel scampers by chasing a bird. It's a beautiful sunny day outside.",
+        "option1": "Das Fenster öffnen und die frische Luft genießen",
+        "option2": "Sich anziehen und einen Spaziergang machen", 
+        "option3": "Zurück ins Bett gehen und weiterschlafen"
+        }
+    ]}
+
+"scene": "You wake up in your bedroom. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+"opción1": "cama",
+"opción2": "ventana",
+"opción3": "puerta"
+}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the ventanas (windows) and a gentle breeze is coming in through the ventana abierta (open window). You can smell fresh pan tostado (toast) coming from the cocina (kitchen) down the hall.",
+    "option1": "levantarse (get up)",
+    "option2": "quedarse en la cama (stay in bed)",
+    "option3": "cerrar la ventana (close the window)"
+}
+
+
+{"scene": "You decide to get up and start your day. As you enter the kitchen, you see your madre (mother) humming and buttering some fresh toast. She smiles and says 'Buenos días, cariño (Good morning, dear)'. What would you like to do?",
+"option1": "Ayudar a tu madre con el desayuno (Help your mother with breakfast)",
+"option2": "Sentarse a la mesa y esperar (Sit down at the table and wait)",
+"option3": "Decirle a tu madre que todavía estás cansado y volver a la cama (Tell your mother you are still tired and go back to bed)"
+},
+
+{"scene": "You decide to stay snuggled up in your warm bed for a little while longer. As you start to drift back to sleep, you hear a loud THUMP from downstairs followed by your madre (mother) calling out '¿Estás bien? (Are you okay?)'. It sounds like she may have dropped something.",
+"option1": "Levantarse e ir a ver qué pasó (Get up and go see what happened)", 
+"option2": "Quedarse en la cama y tratar de volver a dormir (Stay in bed and try to go back to sleep)",
+"option3": "Gritar '¿Qué fue ese ruido?' desde tu habitación (Yell 'What was that noise?' from your room)"
+},
+
+{"scene": "You get out of bed and walk over to the open window. The cool morning breeze feels refreshing on your face. As you go to close the window, you hear children playing and laughing outside. Looking down, you see a group of neighborhood niños (children) kicking a pelota (ball) around in el parque (the park) across the street.",
+"option1": "Cerrar la ventana y volver a la cama (Close the window and go back to bed)",
+"option2": "Vestirse rápidamente y salir a jugar con los niños (Get dressed quickly and go out to play with the children)",
+"option3": "Observar a los niños jugar desde la ventana por un rato (Watch the children play from the window for a while)"}
+
+]}
+
+"scene": "You wake up in your bedroom. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+"opción1": "cama",
+"opción2": "ventana",
+"opción3": "puerta"
+}
+
+    "scene": "You wake up in your cozy bedroom. The morning sunlight is peeking through the curtains. It's a beautiful day to explore your home.",
+    "option1": "ventana",
+    "option2": "cama", 
+    "option3": "puerta"
+}
+
+{"scene": "You decide to open the curtains and look out the window. You see a beautiful garden outside with flowers blooming and birds chirping. The fresh air and sunshine fill you with energy for the day ahead.",
+"option1": "Den Garten erkunden",
+"option2": "Sich anziehen und das Haus verlassen",
+"option3": "Frühstücken und dann entscheiden, was als Nächstes zu tun ist"
+},
+{"scene": "You decide to stay in bed a little longer and enjoy the cozy warmth. As you snuggle back under the covers, you hear some noises coming from downstairs. It sounds like someone is up and about in the kitchen.",
+"option1": "Aufstehen und nachsehen, wer da ist",
+"option2": "Noch ein bisschen länger im Bett bleiben",
+"option3": "Nach dem Telefon greifen und jemanden anrufen"
+},
+{"scene": "You get out of bed and head towards the door to your bedroom. As you open it, you see the hallway stretching out before you with multiple doors on either side. You wonder what could be behind each of those doors.",
+"option1": "Die Treppe hinuntergehen und das Erdgeschoss erkunden",
+"option2": "Eine der Türen öffnen und den Raum dahinter erkunden",
+"option3": "Zurück ins Schlafzimmer gehen und etwas anderes machen"
+}
+]}
+
+    "scene": "You wake up in the morning in your cozy bedroom. The sun is shining through the window and you can hear birds chirping outside. As you stretch and get out of bed, you look around your room.",
+    "option1": "la cama",
+    "option2": "la ventana",
+    "option3": "el armario"
+}
+
+    {"scene": "You decide to make your bed first. As you tidy up the sheets and fluff the pillows, you feel a sense of accomplishment starting your day off right. Once finished, you look around your room again.", 
+    "option1": "Ihr geht zum Fenster",
+    "option2": "Ihr öffnet den Kleiderschrank",
+    "option3": "Ihr verlasst das Zimmer"
+    },
+
+    {"scene": "You walk over to the window and pull back the curtains, letting the warm sunlight stream in. Looking outside, you see a beautiful day with clear blue skies. Some neighborhood children are playing outside. After taking in the view for a moment, you turn back to your room.",
+    "option1": "Ihr macht das Bett",
+    "option2": "Ihr öffnet den Kleiderschrank", 
+    "option3": "Ihr verlasst das Zimmer"
+    },
+
+    {"scene": "You open your closet door to get dressed for the day. Inside you see rows of shirts, pants, and other clothing items. You'll need to pick out an outfit suited for whatever you have planned. As you look through your options, you try to decide what to wear.",
+    "option1": "Ihr macht das Bett",
+    "option2": "Ihr geht zum Fenster",
+    "option3": "Ihr verlasst das Zimmer"
+    }
+]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight is peeking through the ventanas(windows) and you can hear pájaros(birds) chirping outside. Your estómago(stomach) grumbles, letting you know it's time for desayuno(breakfast).",
+    "option1": "Levantarse de la cama(Get out of bed)",
+    "option2": "Quedarse en la cama(Stay in bed)",
+    "option3": "Abrir las cortinas(Open the curtains)"
+}
+
+        {"scene": "You get out of bed and stretch your arms above your head. Your feet touch the cold floor as you make your way to the kitchen. What would you like for breakfast?",
+        "option1": "Einen Obstsalat machen",
+        "option2": "Rührei mit Speck und Toast machen",
+        "option3": "Einfach eine Schüssel mit Müsli essen"
+        },
+        {"scene": "You snuggle deeper under the warm blankets, enjoying the comfort of your bed. After a few minutes, you start to feel guilty about lying in. What will you do?",
+        "option1": "Noch ein bisschen länger liegen bleiben",
+        "option2": "Doch aufstehen und den Tag beginnen",
+        "option3": "Das Handy nehmen und im Internet surfen"
+        },
+        {"scene": "You get up and walk over to the window, pulling back the curtains. Bright sunlight fills the room. You look outside and see a beautiful sunny day. What would you like to do?",
+        "option1": "Einen Spaziergang im Park machen",
+        "option2": "Zuhause bleiben und fernsehen",
+        "option3": "Einen Freund anrufen und etwas zusammen unternehmen"
+        }
+    ]}
+
+  "scene": "You wake up in your bed on a sunny morning. The light is streaming in through the window and you can hear birds chirping outside. It's a beautiful day to start your day at home.",
+  "opción1": "levantarse de la cama",
+  "opción2": "quedarse en la cama",
+  "opción3": "abrir las cortinas"
+}
+
+    "scene": "You wake up in the morning in your cozy bedroom. The sun is shining through the window and you can hear birds chirping outside. You stretch and get out of your warm Bett.",
+    "option1": "Fenster",
+    "option2": "Tür",
+    "option3": "Kleiderschrank"
+}
+
+{"scene": "You decide to open the window and let in some fresh morning air. The birds are singing sweetly and a gentle breeze ruffles the curtains. You take a deep breath of the crisp air and feel refreshed and ready to start your day.", 
+"option1": "Machen Sie sich fertig für den Tag",
+"option2": "Gehen Sie nach unten für ein Frühstück",
+"option3": "Lesen Sie ein Buch für eine Weile"},
+
+{"scene": "You walk over to the door and open it, revealing the hallway outside your bedroom. You can hear sounds coming from downstairs - it seems others in your household are already up and about their morning routines.",
+"option1": "Gehen Sie die Treppe hinunter",
+"option2": "Bleiben Sie in Ihrem Zimmer",
+"option3": "Rufen Sie nach jemandem"},
+
+{"scene": "You make your way over to the closet and open it up, revealing your collection of clothes and accessories. You ponder what to wear for the day as you rifle through the hangers and shelves.",
+"option1": "Wählen Sie etwas Bequemes aus",
+"option2": "Wählen Sie etwas Elegantes aus", 
+"option3": "Lassen Sie Ihre Kleidung für jetzt und machen Sie etwas anderes"}
+]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sunlight is peeking through the curtains. You stretch and look around your familiar surroundings.",
+    "opción1": "cama",
+    "opción2": "ventana",
+    "opción3": "armario"
+}
+
+  "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains and a gentle breeze is blowing through the open window. You stretch and look around your room.",
+  "option1": "das Bett",
+  "option2": "der Schrank",
+  "option3": "das Fenster"
+}
+
+{"scene": "You decide to get out of bed. As you stand up, you notice a piece of paper on your bedside table that wasn't there before. Curious, you pick it up and read it. The note says 'Baldwin, your quest awaits you in the forest. Seek the ancient oak tree and all will become clear. This is your calling.' You look around wondering what this could mean.",
+"option1": "Sie beschließen, der Anweisung zu folgen und sich auf den Weg in den Wald zu machen.",
+"option2": "Sie entscheiden sich, die Notiz vorerst zu ignorieren und machen sich fertig für den Tag.",
+"option3": "Sie zerreißen die Notiz und gehen zurück ins Bett."
+},
+{"scene": "You open your wardrobe and find that all of your regular clothes are gone! Instead, the wardrobe contains armor, a sword, a bow and a quiver of arrows. Clearly, something strange is happening. You hear a voice in your head saying 'Baldwin, you must embrace your destiny as a heroic knight. Equip yourself and seek the ancient oak tree in the forest.'",
+"option1": "Sie ziehen die Rüstung an und nehmen die Waffen, um sich auf den Weg in den Wald zu machen.",
+"option2": "Verwirrt über die Situation ziehen Sie sich erstmal Ihre normalen Klamotten an.",
+"option3": "Sie schließen den Schrank wieder und ignorieren die Stimme in Ihrem Kopf."
+},
+{"scene": "You walk over to the open window and gaze out over the forest in the distance. The morning sunlight filters through the trees, and you can hear the faint sounds of birds chirping. You feel a strange pull towards the forest, almost like it is calling to you. The voice in your head speaks again 'The ancient oak tree awaits you, Baldwin. Your destiny lies within those woods.'", 
+"option1": "Sie beschließen, der Stimme zu folgen und machen sich auf den Weg in den Wald.",
+"option2": "Obwohl Sie sich zu dem Wald hingezogen fühlen, entscheiden Sie sich vorerst, zu Hause zu bleiben.",
+"option3": "Sie schließen das Fenster und versuchen, die Stimme in Ihrem Kopf zu ignorieren."}
+]}
+
+    "scene": "You wake up in your cozy bed on a bright sunny morning. The birds are chirping outside your window. You stretch and look around your...",
+    "option1": "Schlafzimmer",
+    "option2": "Wohnzimmer", 
+    "option3": "Küche"
+}
+
+{"scene": "You wake up in your cozy bed on a bright sunny morning. The birds are chirping outside your window. You stretch and look around your bedroom. The warm sunlight is filtering through the curtains and you can see dust particles dancing in the rays of light. Your clothes are neatly folded on the chair next to your bed and your favorite book is lying open on the nightstand where you left it last night before falling asleep.",
+"option1": "Sie stehen auf und machen sich fertig für den Tag.",
+"option2": "Sie beschließen, noch ein bisschen länger im Bett zu bleiben und zu lesen.",
+"option3": "Sie ziehen die Vorhänge zu und versuchen, wieder einzuschlafen."
+},
+{"scene": "You wake up in your cozy bed on a bright sunny morning. The birds are chirping outside your window. You stretch and make your way to the living room. The room is filled with warm sunlight and your house plants seem to be basking in the rays. Your favorite cozy chair is calling out to you, beckoning you to sink into it with a good book or just relax and listen to some music.",
+"option1": "Sie setzen sich in Ihren Lieblingssessel und lesen ein Buch.",
+"option2": "Sie schalten die Stereoanlage ein und hören etwas Musik.",
+"option3": "Sie gehen in die Küche, um sich etwas zu essen zu machen."
+},
+{"scene": "You wake up in your cozy bed on a bright sunny morning. The birds are chirping outside your window. You stretch and make your way to the kitchen. The delicious smell of freshly brewed coffee greets you as you enter. The sun is pouring through the window over the kitchen table, making it look like an inviting spot for a relaxing breakfast.",
+"option1": "Sie machen sich einen Kaffee und ein leichtes Frühstück.",
+"option2": "Sie beschließen, ein richtiges Frühstück mit Rührei, Speck und Toast zuzubereiten.", 
+"option3": "Sie packen schnell ein paar Sachen zusammen, um unterwegs etwas zu essen."}
+]}
+
+"scene": "You wake up in your bedroom. The sun is shining brightly through the window. What would you like to do?",
+"opción1": "la cama",
+"opción2": "la ventana", 
+"opción3": "el armario"
+}
+
+"scene": "You wake up in your bedroom. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+"opción1": "la cama",
+"opción2": "la ventana",
+"opción3": "el armario"
+}
+
+  "scene": "You wake up in your bed at home. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+  "opción1": "ventana",
+  "opción2": "cama",
+  "opción3": "casa"
+}
+
+"scene": "You wake up in your cozy bedroom. Sunlight is peeking through the Fenster (window) and you can hear the birds chirping outside. It's a beautiful morning and you feel well rested.",
+"option1": "Bett (bed)",
+"option2": "Schrank (closet)", 
+"option3": "Tür (door)"
+}
+
+{"scene": "You decide to stay in bed a little longer, enjoying the warmth and comfort of your covers. As you lie there, you start to think about your plans for the day. You could go for a hike in the nearby forest, or maybe just relax at home with a good book. What would you like to do?",
+"option1": "Gehen Sie auf eine Wanderung",
+"option2": "Lesen Sie ein Buch",
+"option3": "Machen Sie etwas anderes"
+},
+{"scene": "You get up and walk over to your closet, opening it to survey your choices of clothes for the day. You see your favorite hiking gear, as well as some comfy loungewear perfect for relaxing around the house. What would you like to wear?", 
+"option1": "Ziehen Sie sich für eine Wanderung an",
+"option2": "Ziehen Sie sich bequem an, um zu Hause zu bleiben",
+"option3": "Schauen Sie sich noch einmal um"
+},
+{"scene": "Deciding to get up and start your day, you head towards the door that leads out of your bedroom. Just before opening it, you hear some noise coming from the other side. It sounds like your family or roommates might already be up and about. Do you want to go see what they're up to?",
+"option1": "Öffnen Sie die Tür und gehen Sie hinaus",
+"option2": "Rufen Sie hindurch und fragen, wer da ist",
+"option3": "Gehen Sie zurück ins Bett und bleiben Sie vorerst dort"
+}
+]}
+
+"scene": "You wake up in your cozy bedroom. The morning sun is shining through the window and you can hear birds chirping outside. You stretch and look around your room.",
+"option1": "Fenster",
+"option2": "Bett", 
+"option3": "Tür"
+}
+
+    {"scene": "You decide to go to the window. You pull back the curtains and gaze out at the beautiful sunny day. Birds are flitting about in the trees and a gentle breeze is blowing. What would you like to do next?",
+    "option1": "Öffnen Sie das Fenster", 
+    "option2": "Verlassen Sie das Zimmer",
+    "option3": "Gehen Sie zurück zum Bett"
+    },
+
+    {"scene": "You decide to stay in bed a little longer. The warm blankets feel so cozy. As you lie there, you hear a knock at your bedroom door. What would you like to do?",
+    "option1": "Rufen Sie 'Herein'",
+    "option2": "Stehen Sie auf und öffnen Sie die Tür",
+    "option3": "Ignorieren Sie es und bleiben Sie im Bett"
+    },
+
+    {"scene": "You get out of bed and walk over to the door. You pause for a moment with your hand on the doorknob, wondering what or who could be on the other side. What would you like to do?", 
+    "option1": "Öffnen Sie die Tür",
+    "option2": "Rufen Sie 'Wer ist da?'",
+    "option3": "Gehen Sie zurück zum Bett"
+    }
+]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sunlight is peeking through the curtains. You stretch and look around your room.",
+    "option1": "Bett",
+    "option2": "Fenster",
+    "option3": "Kleiderschrank"
+}
+
+        {"scene": "You decide to stay in bed a little longer. The warm blankets feel so cozy. You close your eyes and drift back to sleep. Some time later, you are awoken by the sound of your rumbling stomach.", 
+        "option1": "Aufstehen und Frühstück machen",
+        "option2": "Noch ein bisschen länger im Bett bleiben",
+        "option3": "Nach dem Handy greifen und im Internet surfen"
+        },
+
+        {"scene": "You get up and walk over to the window. Opening the curtains, you are greeted by a beautiful sunny day outside. The trees are swaying gently in the breeze and birds are chirping happily.",
+        "option1": "Das Fenster öffnen und die frische Luft genießen", 
+        "option2": "Sich anziehen und einen Spaziergang machen",
+        "option3": "Zurück ins Bett gehen und weiterschlafen"
+        },
+
+        {"scene": "You open your closet door and look at the clothes hanging inside. You'll need to pick an outfit for the day. What's the occasion? Are you going somewhere special?",
+        "option1": "Etwas Bequemes für zu Hause anziehen",
+        "option2": "Einen schicken Anzug auswählen für ein wichtiges Treffen", 
+        "option3": "Sportkleidung für ein Training anziehen"
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sunlight is peeking through the curtains and you can hear birds chirping outside. It's a beautiful day to start your adventures.",
+    "option1": "Fenster",
+    "option2": "Bett",
+    "option3": "Tür"
+}
+
+        {"scene": "You decide to open the window and let the fresh morning air into your room. The sweet smell of flowers from the garden wafts in, filling you with energy and excitement for the day ahead. As you gaze out at the lush green trees and blue sky, you feel ready to start your adventure. What would you like to do next?",
+        "option1": "Einen Spaziergang im Garten machen",
+        "option2": "Frühstücken",
+        "option3": "Sich für die Reise vorbereiten"
+        },
+        {"scene": "You decide to stay cozy in your warm bed for a little while longer. As you snuggle back under the covers, you hear a strange noise coming from downstairs. It sounds like something knocked over some pots and pans in the kitchen. Curious to investigate, but not wanting to get up just yet, what would you like to do?", 
+        "option1": "Aus dem Bett aufstehen und nachsehen",
+        "option2": "Noch ein bisschen länger liegenbleiben",
+        "option3": "Laut rufen und fragen, wer da ist"
+        },
+        {"scene": "Feeling adventurous, you head straight for the door to begin your journey. But as you reach for the doorknob, you realize you don't have any of your supplies packed yet. And where would you go first? The world is full of possibilities for adventure. What would you like to do?",
+        "option1": "Einen Rucksack packen mit Vorräten",
+        "option2": "Zuerst eine Karte studieren und einen Reiseplan machen", 
+        "option3": "Einfach loslaufen und sehen, wohin der Weg führt"
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. The sun is shining through the curtains and you can hear birds chirping outside. You stretch and look around your room.",
+    "option1": "Bett",
+    "option2": "Fenster",
+    "option3": "Tür"
+}
+
+        {"scene": "You decide to stay in bed a little longer. As you lie there, you start to wonder what adventures might be in store for you today. The possibilities seem endless on such a beautiful morning.", 
+        "option1": "Aufstehen",
+        "option2": "Weiterschlafen",
+        "option3": "Tagträumen"
+        },
+
+        {"scene": "You get up and walk over to the window. Opening the curtains, you are greeted by a gorgeous sunny day. The trees are swaying gently in the breeze and you can see kids playing outside. A smile crosses your face as you take in the lovely view.",
+        "option1": "Fenster öffnen",
+        "option2": "Sich anziehen", 
+        "option3": "Frühstücken"
+        },
+        
+        {"scene": "Feeling restless, you head for the door to your bedroom. You're not sure what you want to do yet, but staying cooped up inside doesn't seem appealing on such a nice day. You open the door and pause, thinking about your next move.",
+        "option1": "Nach draußen gehen",
+        "option2": "Fernsehen",
+        "option3": "Hausarbeit erledigen"
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. Sunlight streams in through the window and you can hear birds chirping outside. It's a beautiful morning.",
+    "option1": "Bett",
+    "option2": "Fenster",
+    "option3": "Tür"
+}
+
+        {"scene": "You decide to stay in bed and relax for a while. As you lie there, you hear your stomach start to rumble. It's been a while since you last ate.",
+        "option1": "Aufstehen und etwas zu essen machen",
+        "option2": "Noch ein bisschen länger im Bett bleiben",
+        "option3": "Das Fenster öffnen und die frische Luft genießen"
+        },
+        {"scene": "You get up and walk over to the window. Opening it, you take a deep breath of the crisp morning air. The birds seem to be singing just for you on this fine day.",
+        "option1": "Aus dem Fenster schauen und die Aussicht genießen",
+        "option2": "Sich anziehen und nach draußen gehen",
+        "option3": "Zurück ins Bett gehen und weiterschlafen"
+        },
+        {"scene": "Feeling adventurous, you head over to the door and open it. Beyond is the hallway of your home leading to the rest of the house. Where should you go from here?", 
+        "option1": "Zur Küche gehen und frühstücken",
+        "option2": "Ins Badezimmer gehen und duschen",
+        "option3": "Ins Wohnzimmer gehen und fernsehen"
+        }
+    ]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains. You stretch and look around your room.",
+    "option1": "la cama",
+    "option2": "el armario",
+    "option3": "la ventana"
+}
+
+        {"scene": "You decide to stay in bed for a little while longer. The warm blankets feel so comfortable and you don't have anywhere to be this morning. As you lay there, you hear a noise coming from outside your bedroom door. It sounds like someone moving around in the hallway.",
+        "option1": "Rufen Sie aus, um zu sehen, wer da ist",
+        "option2": "Bleiben Sie still und warten Sie ab",
+        "option3": "Stehen Sie auf und öffnen Sie die Tür"
+        },
+        {"scene": "You get out of bed and walk over to your closet. Opening the door, you see your clothes hanging neatly and your shoes lined up below. You'll need to get dressed soon, but you're not sure what you want to wear today.",
+        "option1": "Ziehen Sie Ihre Lieblingsklamotten an",
+        "option2": "Wählen Sie etwas Bequemes aus",
+        "option3": "Entscheiden Sie sich für etwas Schickes"
+        },
+        {"scene": "Pulling back the curtains, you let the bright sunlight stream into your room. You look outside at the beautiful day. The trees are swaying gently in the breeze and a few puffy white clouds dot the blue sky. From this view you can see other houses in your neighborhood as well as the park down the street.",
+        "option1": "Öffnen Sie das Fenster und atmen Sie die frische Luft ein",
+        "option2": "Verlassen Sie das Zimmer und gehen Sie nach unten",
+        "option3": "Schließen Sie die Vorhänge wieder und kehren Sie ins Bett zurück"
+        }
+    ]}
+
+
+{"scene": "You open the window and take a deep breath of fresh air. The scent of blooming flowers fills your lungs. Birds are chirping merrily in the trees outside. Looking down, you see your neighbor tending to their garden.",
+"option1": "Rufen Sie Ihrem Nachbarn einen freundlichen Gruß zu",
+"option2": "Lehnen Sie sich aus dem Fenster und schauen Sie sich die Nachbarschaft genauer an",
+"option3": "Schließen Sie das Fenster und bereiten Sie sich darauf vor, das Haus zu verlassen"
+},
+
+{"scene": "You leave your bedroom and head downstairs. The aroma of freshly brewed coffee greets you as you enter the kitchen. Through the window over the sink, you can see more of your neighborhood outside.",
+"option1": "Machen Sie sich eine Tasse Kaffee und setzen Sie sich an den Küchentisch",
+"option2": "Verlassen Sie das Haus durch die Hintertür und gehen Sie in den Garten hinaus",
+"option3": "Gehen Sie ins Wohnzimmer und schalten Sie den Fernseher ein"
+},
+
+{"scene": "You draw the curtains closed again, blocking out the sunlight. You snuggle back under your warm covers and let out a contented sigh. Your eyelids feel heavy as you slowly drift back to sleep.",
+"option1": "Schlafen Sie noch ein paar Stunden weiter",
+"option2": "Wachen Sie auf und stehen Sie auf, um den Tag zu beginnen",
+"option3": "Drehen Sie sich zur Seite und versuchen Sie, wieder einzuschlafen"
+}
+
+]}
+
+    {"scene": "You walk downstairs into the living room. The house is quiet except for the ticking of the grandfather clock in the corner. Through the front window you can see your neighbor Mrs. Jenkins tending to her garden next door. A stack of mail is sitting on the side table, likely brought in by your parents earlier.",
+     "option1": "Öffnen Sie die Tür und gehen Sie nach draußen",
+     "option2": "Setzen Sie sich aufs Sofa und sehen Sie fern",
+     "option3": "Schauen Sie sich die Post an"
+    },
+    {"scene": "You step outside onto the front porch, greeted by the warm morning sun on your face. Birds are chirping in the trees lining the street. A few neighbors are out walking their dogs. The paperboy rides by on his bike, tossing this morning's paper onto your driveway.",
+     "option1": "Holen Sie die Zeitung von der Einfahrt",
+     "option2": "Gehen Sie die Straße hinunter zum Park",
+     "option3": "Gehen Sie zurück ins Haus"
+    },
+    {"scene": "You plop down on the cozy living room couch and turn on the TV. The news is on, with the anchors discussing the latest current events. An ad for a upcoming movie you've been wanting to see plays. Looking around, you notice a few toys and books scattered around from your younger siblings.",
+     "option1": "Bleiben Sie auf der Couch und sehen Sie weiter fern",
+     "option2": "Räumen Sie die Spielsachen und Bücher auf",
+     "option3": "Gehen Sie in die Küche, um etwas zu essen zu finden"
+    }
+  ]}
+
+{"scene": "You make your way into the kitchen and pour yourself a steaming cup of coffee from the pot on the counter. Sitting down at the kitchen table, you take a sip and savor the rich flavor. Through the window, you watch as a pair of squirrels chase each other across the yard. The morning sun filters through the trees, casting a warm glow over the room.",
+"option1": "Gehen Sie nach draußen und genießen Sie den schönen Tag im Freien.",
+"option2": "Schauen Sie sich die Post an, die auf dem Küchentisch liegt.",
+"option3": "Machen Sie sich ein Frühstück und lesen Sie dabei die Zeitung."
+},
+{"scene": "You decide to head outside and enjoy the beautiful day. Stepping out onto the back patio, you take a deep breath of the fresh morning air. Birds are singing cheerfully in the trees and a light breeze ruffles your hair. Your neighbor's dog can be heard barking a few houses down. The sun feels warm on your face as you look around the neatly manicured backyard.",
+"option1": "Gehen Sie in den Park und machen Sie einen Spaziergang.",
+"option2": "Setzen Sie sich auf die Veranda und lesen Sie ein Buch.",
+"option3": "Fangen Sie an, im Garten zu arbeiten und die Blumenbeete zu jäten."
+},
+{"scene": "Turning your attention to the stack of mail on the table, you begin sorting through it. There are a few bills mixed in with advertisements and a letter from your aunt. One envelope is handwritten and doesn't have a return address. Curious, you carefully open it, revealing a single sheet of paper inside with a typed message.",
+"option1": "Lesen Sie die Nachricht auf dem Blatt Papier.",
+"option2": "Ignorieren Sie den merkwürdigen Brief und konzentrieren Sie sich stattdessen auf die anderen Briefe.",
+"option3": "Rufen Sie Ihre Eltern an und fragen Sie sie, ob sie etwas über diesen Brief wissen."}
+]}
+
+    {"scene": "You set your coffee mug down on the kitchen table and sort through the stack of mail. There are a few bills, some advertisements, and a postcard from your aunt who is traveling abroad. One envelope catches your eye - it has your name handwritten on it in an unfamiliar script.",
+     "option1": "Öffnen Sie den Brief",
+     "option2": "Lassen Sie den Brief vorerst liegen und gehen Sie nach draußen",
+     "option3": "Rufen Sie Ihre Eltern, um zu fragen, wer den Brief geschickt hat"
+    },
+    
+    {"scene": "Curiosity gets the better of you and you carefully open the mysterious envelope. Inside is a letter written in a strange language accompanied by a large golden key. The letter seems to be some sort of riddle or clue, but you can't make out the meaning.",
+     "option1": "Versuchen Sie, die Sprache der Schrift zu entziffern",
+     "option2": "Zeigen Sie den Brief und den Schlüssel Ihren Eltern",
+     "option3": "Packen Sie den Brief und den Schlüssel weg und vergessen Sie vorerst darüber"
+    },
+    
+    {"scene": "You rush to find your parents to ask about the peculiar letter and key. They seem just as perplexed as you are. Your father studies the key closely, running his fingers along the ornate patterns. 'I've never seen anything like this,' he mutters under his breath.",
+     "option1": "Bitten Sie Ihre Eltern, einen Experten um Rat zu fragen",
+     "option2": "Schlagen Sie vor, dass Sie alle zusammen das Rätsel lösen",
+     "option3": "Entscheiden Sie, dass es zu gefährlich ist und werfen Sie den Brief und Schlüssel weg"
+    }
+]}
+
+    "scene": "You wake up in your bedroom. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+    "option1": "levantarse de la cama",
+    "option2": "quedarse en la cama",
+    "option3": "abrir la ventana"
+}
+
+"scene": "You wake up in your bedroom. The sun is shining through the window and you can hear birds chirping outside. It's a beautiful morning.",
+"option1": "la cama",
+"option2": "el armario",
+"option3": "el espejo"
+}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains. You stretch and look around your room.",
+    "option1": "la cama",
+    "option2": "el armario",
+    "option3": "la ventana"
+}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains. You stretch and look around your room.",
+    "option1": "la cama",
+    "option2": "la ventana",
+    "option3": "el armario"
+}
+
+{"scene": "You decide to stay in bed for a little while longer. As you lay there, you hear birds chirping outside and the distant sound of traffic. Your mind starts to wander, thinking about the day ahead.",
+"option1": "levantarse de la cama",
+"option2": "quedarse en la cama un rato más",
+"option3": "mirar el teléfono"
+},
+{"scene": "You get up and walk over to the window, pulling back the curtains. The bright sunlight floods into the room. You look outside and see kids playing in the park across the street. A gentle breeze blows through the trees.",  
+"option1": "abrir la ventana para dejar entrar el aire fresco",
+"option2": "cerrar las cortinas y volver a la cama",
+"option3": "vestirse y salir a dar un paseo"
+},
+{"scene": "Deciding to get dressed, you open your closet door. You look through your clothes, trying to decide what to wear for the day. After picking out an outfit, you get changed and look at yourself in the mirror.",
+"option1": "cambiarse de ropa otra vez",
+"option2": "peinarse y arreglarse",
+"option3": "bajar a desayunar"
+}
+]}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains. You stretch and look around your room.",
+    "option1": "la cama",
+    "option2": "el armario",
+    "option3": "la ventana"
+}
+
+    "scene": "You wake up in your cozy bedroom. The morning sun is peeking through the curtains and you can hear birds chirping outside. It's a beautiful day to explore your home.",
+    "option1": "Salir de la cama",
+    "option2": "Abrir las cortinas",
+    "option3": "Quedarse en la cama"
+}
+
+{"scene": "You decide to get out of bed. As your feet touch the soft carpet, you stretch your arms and take a deep breath of the fresh morning air. Looking around your cozy bedroom, you notice the sunlight dancing across the walls and your favorite stuffed animal sitting on the nightstand. What would you like to do next?",
+"option1": "Vestirse y salir de la habitación",
+"option2": "Hacer la cama",
+"option3": "Abrazar al animal de peluche"
+},
+{"scene": "You pull back the curtains, letting the warm sunlight fill the room. Outside, you can see trees gently swaying in the breeze and a few fluffy clouds drifting across the bright blue sky. Birds are chirping merrily, welcoming the new day. With the curtains now open, you feel refreshed and energized. What would you like to do next?",
+"option1": "Abrir la ventana para dejar entrar el aire fresco",
+"option2": "Cambiarse de ropa",
+"option3": "Bajar a desayunar"
+},
+{"scene": "You snuggle back under the cozy covers, feeling the warmth and comfort envelop you. Through sleepy eyes, you gaze around your familiar bedroom. Everything seems so peaceful and serene in this moment. As you start to slowly wake up more, you wonder what adventures the new day might bring. What would you like to do?",
+"option1": "Quedarse un rato más en la cama",
+"option2": "Levantarse e ir al baño",
+"option3": "Revisar el teléfono para ver si hay mensajes nuevos"
+}
+]}
+
+  "scene": "You wake up in your cozy bedroom. The sunlight is peeking through the curtains and you can hear birds chirping outside. It's a beautiful morning.",
+  "option1": "Levantarse de la cama",
+  "option2": "Quedarse en la cama",
+  "option3": "Abrir las cortinas"
+}
+
+{"scene": "You decide to get out of bed. As your feet touch the soft carpet, you stretch your arms out wide and take a deep breath of the fresh morning air. Looking around your room, everything is tidy and in its place. What would you like to do next?",
+"option1": "Vestirse y prepararse para el día",
+"option2": "Hacer algunas tareas de la casa primero",
+"option3": "Ir a la cocina para desayunar"
+},
+{"scene": "The warm blankets and pillows are just too cozy and inviting to leave right now. You snuggle back down into the comfort of your bed. After a few minutes of laying there, you start to feel antsy. What would you like to do?",
+"option1": "Levantarse de la cama después de todo",
+"option2": "Revisar las redes sociales en el teléfono",
+"option3": "Tomar una pequeña siesta más"
+},
+{"scene": "You walk over to the window and pull back the curtains, letting the bright sunlight stream into your room. Looking outside, you can see birds flitting about and trees gently swaying in the breeze. The day looks beautiful. What would you like to do now?", 
+"option1": "Abrir la ventana para dejar entrar el aire fresco",
+"option2": "Vestirse y salir a dar un paseo",
+"option3": "Regresar a la cama por un rato más"
+}
+]}
+
+
+{"scene": "You decide to get up after all. As your feet hit the floor, you feel a chill run up your body from the cold hardwood. You make your way over to the window and open the curtains, letting the bright morning sunlight pour in. What would you like to do next?",
+"option1": "Preparar un desayuno rápido",
+"option2": "Hacer un poco de ejercicio",
+"option3": "Revisar el correo electrónico y las noticias"
+},
+
+{"scene": "You grab your phone from the nightstand and unlock it, immediately getting bombarded with notifications from various apps. You open up your social media accounts and start mindlessly scrolling. After what feels like just a few minutes, you realize you've been scrolling for over an hour! You feel a bit sluggish and unfocused now. What would you like to do?",
+"option1": "Seguir desplazándose por un rato más",
+"option2": "Cerrar las aplicaciones de redes sociales y hacer algo más productivo", 
+"option3": "Enviar un mensaje de texto a un amigo para hacer planes"
+},
+
+{"scene": "You pull the covers up over your head, blocking out the morning light. The cozy warmth surrounds you once again as you allow yourself to drift back off to sleep. Some time later, you wake up feeling groggy and disoriented. You check the clock and realize you've slept half the day away! What would you like to do now?",
+"option1": "Levantarse y prepararse para el día",
+"option2": "Quedarse en la cama un poco más",
+"option3": "Pedir algo de comida para llevar"
+}
+
+]}

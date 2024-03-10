@@ -24,6 +24,12 @@ ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
 
 # function to join the story element objects into a prompt
 def join_story_elements(story_elements):
+    print(story_elements)
+
+    if len(story_elements) == 1:
+        prompt = "The story starts with: " + story_elements[0]["scene"] + "\n"
+        prompt += "The options are: option1 - " + story_elements[0]["option1"] + " option2 - " + story_elements[0]["option2"] + " option3 - " + story_elements[0]["option3"] + "."
+        return prompt
 
     prompt = ""
     for i,element in enumerate(story_elements):
@@ -45,7 +51,7 @@ def join_data(language, name, beginner, genre, theme):
     sys += "The user is a beginner." + '\n'
     sys += "As users progress through the story, the app adapts the language to the user's chosen target language, creating a contextualized learning experience." + '\n'
     sys += "Given the story so far, and three options to continue, you must generate a scene and a further three options to continue for each option."
-    sys += "The scenes must be given in English and the options must be given in "  + language + '\n'
+    sys += "The scenes must be given in English and ONLY the options must be given in "  + language + '\n'
     # sys += 'Give the scenes in the format {"scene": "the description of the scene and story", "option1": "the first options", "option2": "the second option", "option3": "the third option"}\n'
 
     sys += """
@@ -122,12 +128,56 @@ def check_gpt_response(gpt_response):
         return response_dict
 
 
+def setup_prompt(language, name, beginner, genre, theme):
+    # prompt = (
+    #     "You are an interactive story teller and language learning assistant.\n"
+    #     "The goal is to help the user learn the language " + language + " through an interactive text based story.\n"
+    #     "The theme for the story is " + theme + ", the story should have " + language + " words in the theme scattered in the mostly english story as these are the words the user wishes to learn.\n"
+
+    # )
+
+    prompt = (
+        "You are an interactive story teller and language learning assistant.\n"
+        "The goal is to help the user learn the language " + language + " through an interactive text based story.\n"
+        "The theme for the story is " + theme + ", the story should have " + language + " words from the category " + theme + "in the options as these are the words the user wishes to learn.\n"
+        "All of the scenes MUST be in english with NO translations and ONLY the values of each option should be in "+ language+".\n"
+        " scene, option1, option2 and option3 MUST ALLWAYS be in english."
+    )
+
+    prompt += """
+    Scenes should be created in the following format:
+ 
+        {"scene": "the description of the scene and the story",
+        "option1": "the first action the user can take",
+        "option2: "the second available action",
+        "option3: "the third action"}
+
+    ]}
+    """
+
+    msg = "Create the starting scene for the story"
+    response = api.send_message(client, msg, sys_msg = prompt, force_json=True, response_start="Sure here is the starting scene for the story in json:\n", json_start = "{")
+    responseObject = json.loads(response)
+    return responseObject
+
+
 app = Flask(__name__)
 app.config['PROPAGATE_EXCEPTIONS'] = False
 
 CORS(app)
 
 client = api.init("")
+
+
+@app.route("/start", methods=["POST"])
+def start():
+    if request.method == "POST":
+        data = request.get_json()
+        print(data)
+        responseObject = setup_prompt(data["language"], data["name"], "beginner", data["genre"], data["theme"])
+        response = flask.jsonify(responseObject)
+        return response, 200
+
 
 
 # takes user action updates state and gets next question from llm
@@ -138,9 +188,9 @@ def user_action():
 
         print(data)
 
-        scenes = get_next_scenes(data["panels"], "German", "BALDWIN", "beginner", "genre", "theme")
 
-        print(scenes)
+        scenes = get_next_scenes(data["panels"], data["language"], data["name"], "beginner", data["genre"], data["theme"])
+
         response = flask.jsonify({"scenes": scenes})
 
         # response.headers.add('Access-Control-Allow-Origin', '*')
