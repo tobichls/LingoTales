@@ -41,8 +41,7 @@ Listen to real-time translations of interaction options for those who need a hel
 # Demonstration
 [![Demo Video](https://img.youtube.com/vi/Bn8cCXKAIgA/0.jpg)](https://youtu.be/Bn8cCXKAIgA)
 
-Paste this ip into the address bar of your browser, to visit our prototype demonstration website: 109.152.136.83 
-<br> Feel free to look around!
+Feel free to look around our prototype demonstration website: [demonstration website](http://109.152.136.83)
 
 <br>
 
