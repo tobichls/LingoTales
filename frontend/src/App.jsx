@@ -1,5 +1,25 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import MultiStepForm from './components/MultiStepForm'
+
+const api_key = "QUl6YVN5QnhWY1VrWEtuUW9VV0pvMlk1ancwVVAwdDNEaUw4VWFF"
+function getAPIKey() {
+
+  let decodedString = atob(api_key)
+
+  return decodedString
+}
+
+var chosenLanguage = ""
+
+const myVoices = {
+  "german": 3,
+  "french": 9,
+  "spanish": 7,
+  "italian": 12,
+  "dutch": 15,
+  "polish": 16,
+  "portuguese": 17
+}
 
 function App() {
   const [ options, setOptions ] = useState(["climb the gate", "walk left", "go right"])
@@ -16,6 +36,7 @@ function App() {
       genre: data.genre,
       theme: data.theme,
     } )
+    chosenLanguage = data.language
   }
 
   const next = (event) => {
@@ -65,25 +86,64 @@ function App() {
     setOptions([data.option1, data.option2, data.option3])
   }
 
+  // Initialize voices array
+  let voices = [];
+
+  // Populate voices array when voices are loaded
+  voices = window.speechSynthesis.getVoices();
+  console.log(voices)
+
+  const translateAndSpeak = async (text, targetLanguage = 'en') => {
+    const response = await fetch(`https://translation.googleapis.com/language/translate/v2?key=`+ getAPIKey(), {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        q: text,
+        target: targetLanguage,
+      }),
+    });
+  
+    if (!response.ok) {
+      throw new Error('API request failed');
+    }
+  
+    const data = await response.json();
+    const translatedText = data.data.translations[0].translatedText;
+  
+    // // Speak the translated text
+    const utterance = new SpeechSynthesisUtterance(translatedText);
+
+    chosenLanguage = chosenLanguage.toLowerCase()
+
+    if (chosenLanguage in myVoices) {
+      utterance.voice = voices[myVoices[chosenLanguage]];
+    } else {
+      utterance.voice = voices[0];
+    }
+    window.speechSynthesis.speak(utterance);
+  };
+
   return (
     <>
-    {formSubmitted ? <section>
-      <h2 id="main_text">{message}</h2>
-      <div id="selection_div">
-
-        {options.map((option,i) => {
-          return (
-            <button key={i} className="option" onClick={next}>
-              {option}
-            </button>
-            )
-        })}
-      </div>
-    </section>
-    : <MultiStepForm handleFormSubmittedState={handleFormSubmittedState} />}
-
-  </>
-  )
+      {formSubmitted ? <section>
+        <h2 id="main_text">{message}</h2>
+        <div id="selection_div">
+          {options.map((option,i) => {
+            return (
+              <button 
+                key={i} 
+                className="option" 
+                onClick={next}
+                onMouseEnter={() => translateAndSpeak(option)}
+              >
+                {option}
+              </button>
+              )
+          })}
+        </div>
+      </section>
+      : <MultiStepForm handleFormSubmittedState={handleFormSubmittedState} />}
+    </>
+  );
 }
-
 export default App

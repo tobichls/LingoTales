@@ -29,3 +29,397 @@
 "option2": "Den Garten weiter erkunden",
 "option3": "ZurÃ¼ck zum Haupttor gehen"
 }
+
+"scene": "You climb over the wrought iron gate and land softly on the other side. The grounds of the mansion are immaculately kept, with rows of perfectly trimmed hedges and vibrant flower beds lining the cobblestone path leading to the front door. As you approach, you notice the door is slightly ajar, almost as if someone is expecting you.",
+"option1": "Empujar la puerta y entrar",
+"option2": "Llamar a la puerta",
+"option3": "Rodear la mansión para buscar otra entrada"
+}
+
+"scene": "Tomas un profundo respiro y llamas a la puerta principal. Después de un momento, la puerta se abre lentamente, revelando a una mujer mayor con un delantal de encaje. Ella te mira con curiosidad y dice: "¿Puedo ayudarte, querido?". Hay un aroma dulce en el aire, como si acabara de hornear algo delicioso.",
+"option1": "Presentarte y explicar por qué estás aquí",
+"option2": "Preguntar si esta es la residencia de la familia [inserta apellido]",
+"option3": "Disculparte y decir que debes haberte equivocado de dirección"
+}
+
+"scene": "You cautiously make your way around the side of the mansion, keeping close to the hedges for cover. As you round the corner, you spot a small door tucked away in the back. It looks like it might lead to a servants' entrance or kitchen area. The door is slightly ajar, almost inviting you inside.",
+"option1": "Empujar la puerta y entrar",
+"option2": "Llamar a la puerta primero",
+"option3": "Seguir rodeando la mansión"
+}
+
+"scene": "You push open the door and step inside, finding yourself in a dimly lit kitchen. The room is empty, but there are signs that it was recently in use - a pot simmering on the stove, a cutting board with chopped vegetables, and the faint aroma of herbs hanging in the air. A swinging door leads out of the kitchen, and you can hear faint voices coming from the other side.",
+"option1": "Empujar la puerta y entrar en la siguiente habitación",
+"option2": "Explorar la cocina en busca de pistas",
+"option3": "Salir de la mansión por donde entraste"
+}
+
+"scene": "You tiptoe around the kitchen, examining the various pots, pans, and utensils scattered about. Everything seems to be in order, as if the cook had simply stepped out for a moment. As you peer out the window, you notice a small garden just beyond the kitchen door, filled with rows of herbs and vegetables. Suddenly, you hear a loud crash coming from the other room, followed by muffled voices.",
+"option1": "Esconderse en un armario de la cocina",
+"option2": "Salir por la puerta que da al jardín",
+"option3": "Investigar de dónde provienen los ruidos"
+}
+
+"scene": "You creep towards the swinging door, pressing your ear against it to try and make out the voices on the other side. They sound like they're arguing, but you can't quite make out what they're saying. Just then, another loud crash rings out, followed by a yelp. Your heart races as you realize someone might be in trouble. You have to decide what to do next.",
+"option1": "Empujar la puerta y entrar para ver qué está pasando",
+"option2": "Buscar otra salida y alejarse de la mansión",
+"option3": "Llamar a la policía para que investiguen"
+}
+
+"scene": "You climb over the wrought iron gate and land in a lush garden filled with fragrant roses and towering hedges. The mansion looms before you, its stone facade imposing yet elegant. A warm glow emanates from the windows, beckoning you closer. As you approach the front door, it swings open, and a butler greets you with a polite nod.",
+"option1": "Entrar en la mansión con confianza",
+"option2": "Preguntar al mayordomo sobre el propósito de su visita",
+"option3": "Darse la vuelta y marcharse, sintiéndose fuera de lugar"
+}
+
+"scene": "You turn to leave, feeling out of place in such opulent surroundings. But as you take a few steps away from the mansion, a gentle voice calls out, 'Please, don't go.' You turn to see a beautiful woman standing in the doorway, her eyes pleading with you to stay. She seems familiar, though you can't quite place her.",
+"option1": "Quedarse y averiguar quién es ella",
+"option2": "Disculparse y seguir caminando",
+"option3": "Preguntar cómo te conoce"
+}
+
+"scene": "With a heavy heart, you apologize and continue walking away from the mansion. The woman's voice fades behind you, and you feel a pang of regret for not staying to find out more. As you reach the gate, you glance back one last time, wondering what could have been. The mansion stands tall and proud, a beacon of mystery and intrigue that you may never unravel.",
+"option1": "Seguir caminando y dejar atrás el misterio",
+"option2": "Darse la vuelta y volver a la mansión",
+"option3": "Sentarse en un banco cercano y reflexionar sobre lo que acaba de pasar"
+}
+
+"scene": "You find a nearby bench and sit down, trying to make sense of what just happened. The encounter with the mysterious woman at the mansion has left you feeling unsettled and full of questions. Who was she? Why did she seem so familiar? And why did you feel such a strong pull to stay? As you ponder these thoughts, the sun begins to set, casting a warm glow over the surrounding gardens. You realize that this place holds secrets, and a part of you yearns to unravel them.",
+"option1": "Decidir quedarse y averiguar más sobre la mujer y la mansión",
+"option2": "Levantarse y alejarse de la mansión, dejando atrás la curiosidad",
+"option3": "Esperar hasta que anochezca y ver si alguien más sale de la mansión"
+}
+
+"scene": "As the last rays of sunlight fade, you remain seated on the bench, watching the mansion intently. The warm glow from the windows grows brighter, casting flickering shadows across the garden. You can't shake the feeling that there's more to this place than meets the eye. Just as you're considering leaving, the front door opens once again, and a figure emerges.",
+"option1": "Ocultarse detrás de los arbustos para observar mejor",
+"option2": "Llamar la atención de la persona que salió",
+"option3": "Permanecer sentado en el banco, fingiendo no haber visto nada"
+}
+
+"scene": "You call out to the figure emerging from the mansion, hoping to catch their attention. As they turn towards you, the soft glow from the windows illuminates their face, and your heart skips a beat. It's the same woman from earlier, her features even more striking in the evening light. She seems surprised to see you, but a warm smile spreads across her lips.",
+"option1": "Acercarse y presentarse",
+"option2": "Quedarse sentado en silencio, demasiado nervioso para hablar",
+"option3": "Disculparse por molestarla y alejarse rápidamente"
+}
+
+"scene": "You decide to go right around the mansion. As you walk along the side, you notice a small window slightly ajar. Peering inside, you see what appears to be a study with bookshelves lining the walls and a large oak desk in the center. On the desk, you spot a piece of paper that seems to have some sort of scribbled writing on it.",
+"option1": "Versuchen, durch das Fenster zu klettern und die Notiz zu lesen",
+"option2": "Weitergehen und einen anderen Eingang suchen",
+"option3": "Zurück zum Haupttor gehen und klingeln"
+}
+
+"scene": "You decide to continue on and look for another entrance. As you round the corner, you come across a set of large wooden doors. They appear to be the main entrance to the mansion. However, the doors are locked tight. You notice a small plaque next to the doors that reads 'Willkommen bei der Villa Moretti'.",
+"option1": "Versuchen, die Tür aufzubrechen",
+"option2": "Nach einem Schlüssel oder einer anderen Möglichkeit suchen, die Tür zu öffnen",
+"option3": "Zurückgehen und die Fenstern noch einmal überprüfen"
+}
+
+"scene": "You retrace your steps back to the small window you noticed earlier. Upon closer inspection, you realize that the window is just large enough for you to squeeze through. The study appears to be empty, but you can't be sure what lies beyond the door leading out of the room.",
+"option1": "Durch das Fenster klettern und die Studie erkunden",
+"option2": "Weiter nach einem anderen Eingang suchen",
+"option3": "Zurück zum Haupteingang gehen und versuchen, die Tür aufzubrechen"
+}
+
+"scene": "You decide to continue searching for another entrance. As you make your way around the mansion, you notice a small gate leading into what appears to be a garden area. The gate is slightly ajar, almost as if someone had recently passed through. Beyond the gate, you can see a well-manicured garden with various flower beds and a small stone path winding through it.",
+"option1": "Durch das Tor gehen und den Garten erkunden",
+"option2": "Weiter um das Anwesen herumgehen und nach einem anderen Eingang suchen",
+"option3": "Zurück zum Haupteingang gehen und versuchen, die Tür aufzubrechen"
+}
+
+"scene": "You decide to head back to the main entrance, determined to find a way inside the mansion. As you approach the large wooden doors, you examine them closely, looking for any weaknesses or potential entry points. The doors are solid and sturdy, but you notice that the lock mechanism appears old and worn. With a bit of effort, you might be able to force your way in.",
+"option1": "Versuchen, die Tür mit Gewalt aufzubrechen",
+"option2": "Nach einem Stein oder einem anderen Gegenstand suchen, um das Schloss aufzubrechen",
+"option3": "Einen anderen Weg finden, um in das Anwesen zu gelangen"
+}
+
+"scene": "You climb over the tall wrought iron gate and land in the overgrown garden of the abandoned mansion. Weeds and vines have overtaken the once well-manicured grounds. As you approach the front door, you notice it is slightly ajar. A chill runs down your spine as you wonder what could be waiting inside.",
+"option1": "Die Tür vorsichtig öffnen und hineingehen",
+"option2": "Einen Stein aufheben und durch ein Fenster werfen, um zu sehen, ob sich etwas bewegt",
+"option3": "Lieber umkehren und die Polizei rufen"
+}
+
+"scene": "You decide it's best not to enter the creepy mansion alone and turn around to head back towards the gate. As you're walking away, you hear a faint noise coming from inside the mansion, like something being knocked over. Your curiosity is piqued, but your instincts tell you to keep going and get help.",
+"option1": "Weiter zum Tor gehen und die Polizei rufen",
+"option2": "Noch einmal zurückgehen und durch die angelehnte Tür spähen",
+"option3": "Laut rufen, ob jemand drinnen ist und auf eine Antwort warten"
+}
+
+"scene": "You hurry towards the gate, trying to put as much distance between yourself and the eerie mansion as possible. Just as you reach the gate, you hear a loud crash from inside, as if something heavy has fallen. Your heart races as you scramble to unlatch the gate and get back onto the street. Once outside, you quickly pull out your phone and dial for the police, reporting the strange noises and open door at the abandoned property. Within minutes, you hear sirens approaching in the distance.",
+"option1": "Auf die Polizei warten und ihnen alles erklären",
+"option2": "Schnell weglaufen, bevor die Polizei dich sieht",
+"option3": "Zurück zum Anwesen gehen und selbst nachsehen, was los ist"
+}
+
+"scene": "You wait anxiously by the gate for the police to arrive. Within a few minutes, a patrol car pulls up and two officers get out. They approach you cautiously, hands on their holsters. 'We got a call about some suspicious activity at this abandoned mansion,' one of the officers says. 'Can you tell us what happened?'
+
+You recount the story of climbing over the gate, finding the door ajar, and hearing the strange noises from inside before deciding to call for help. The officers listen intently, nodding as you speak. 'Alright, stay here,' the second officer instructs. 'We're going to check it out.'
+
+The two officers unholster their weapons and carefully make their way towards the mansion, scanning the area for any signs of danger. You watch with bated breath, wondering what they might find inside.",
+"option1": "Warten, bis die Polizisten zurückkommen",
+"option2": "Ihnen folgen und selbst nachsehen, was drinnen ist",
+"option3": "Weggehen und die Sache auf sich beruhen lassen"
+}
+
+"scene": "You wait nervously by the gate for the police to arrive. As the patrol car pulls up, two officers get out and approach you. You explain that you heard strange noises coming from the abandoned mansion and saw that the front door was open. The officers thank you for the report and tell you to wait while they go check out the property. After a tense few minutes, the officers emerge from the mansion looking puzzled. They inform you that the noise was likely just some raccoons or other animals that had gotten inside, but they didn't find any signs of a break-in or anything suspicious.",
+"option1": "Die Polizisten fragen, ob du mit ihnen reingehen und dir die Sache selbst ansehen möchtest.",
+"option2": "Du entscheidest dich, nach Hause zu gehen und die ganze Sache zu vergessen.",
+"option3": "Du fragst die Polizisten, ob sie in der Vergangenheit schon ähnliche Vorfälle bei der Villa gemeldet bekommen haben."
+}
+
+"scene": "You wait nervously by the gate for the police to arrive. As the patrol car pulls up, two officers get out and approach you. You explain that you heard strange noises coming from the abandoned mansion and saw that the front door was open. The officers thank you for the report and tell you to wait while they go check out the property. After a tense few minutes, the officers emerge from the mansion looking puzzled. They inform you that the noise was likely just some raccoons or other animals that had gotten inside, but they didn't find any signs of a break-in or anything suspicious.",
+"option1": "Du fragst die Polizisten, ob sie in der Vergangenheit schon ähnliche Vorfälle bei der Villa gemeldet bekommen haben.",
+"option2": "Du bedankst dich bei den Polizisten und gehst nach Hause.",
+"option3": "Du bittest die Polizisten, dich noch einmal durch die Villa zu führen, um selbst nach dem Rechten zu sehen."
+}
+
+"scene": "You walk left along the tall iron fence surrounding the mansion grounds. The path winds through thick bushes and trees, obscuring your view of the house. As you round a corner, you notice a small door built into the fence. It seems to be unlocked. You hear a rustling sound coming from the bushes nearby.",
+"option1": "Ixnay uffstay, umpjay ackbay",
+"option2": "Eaksnay oughthray ethay oorday",
+"option3": "Ushpay aybay ethay ushbay"
+}
+
+"scene": "You climb over the tall wrought iron gate and land in the overgrown garden of the abandoned mansion. Weeds and vines have overtaken the once well-manicured grounds. As you approach the front door, you notice it is slightly ajar. A chill runs down your spine as you wonder what could be waiting inside.",
+"option1": "Du gehst vorsichtig durch die Tür.",
+"option2": "Du entscheidest dich, das Haus zu umgehen und nach einem anderen Eingang zu suchen.",
+"option3": "Du kehrst um und verlässt die Grundstück, da du ein ungutes Gefühl hast."
+}
+
+"scene": "You turn around and leave the property, as you have an uneasy feeling. As you walk away, you notice a strange shape in the overgrown bushes near the gate. It looks like some kind of fruit, but it's hard to tell from this distance.",
+"option1": "Du gehst näher heran, um die seltsame Form zu untersuchen.",
+"option2": "Du verlässt die Gegend so schnell wie möglich.",
+"option3": "Du nimmst einen Stock vom Boden auf, um dich zu verteidigen, falls es sich um eine Gefahr handelt."
+}
+
+"scene": "You cautiously approach the strange shape in the bushes, pushing aside the overgrown branches. To your horror, you realize it is not fruit at all, but a human skull! Your heart races as you stumble backwards, your mind reeling. Could this be evidence of a terrible crime? Or is there a rational explanation? You must decide whether to investigate further or get out of there as fast as you can.",
+"option1": "Du beschließt, die Polizei zu rufen und auf ihre Ankunft zu warten.",
+"option2": "Du entscheidest dich, das Gelände weiter zu erkunden und nach weiteren Hinweisen zu suchen.",
+"option3": "Du rennst so schnell du kannst weg von diesem gruseligen Ort."
+}
+
+"scene": "You run as fast as you can away from that creepy place, your heart pounding in your chest. You don't stop until you've put a safe distance between yourself and the abandoned mansion. As you catch your breath, you wonder what dark secrets that place was hiding. Part of you is curious to investigate further, but the rational part of your mind tells you it's too dangerous. You'll have to decide whether to let the matter go or seek help from the authorities.",
+"option1": "Du gehst zur Polizei und berichtest von deiner gruseligen Entdeckung.",
+"option2": "Du beschließt, die Sache auf sich beruhen zu lassen und nie wieder an diesen Ort zurückzukehren.",
+"option3": "Du suchst im Internet nach Informationen über die verlassene Villa und ihre Geschichte."
+}
+
+"scene": "You decide to let the matter rest and never return to that place again. The thought of uncovering some sinister mystery is too frightening, and you value your safety above all else. As you walk away, you can't help but feel a twinge of guilt for not reporting the suspicious skull. But you convince yourself it's better not to get involved in something that could be dangerous. From now on, you'll stick to exploring places that don't give you the creeps.",
+"option1": "Du gehst zur Polizei und berichtest von deiner gruseligen Entdeckung.",
+"option2": "Du erzählst deinen Freunden von dem verlassenen Anwesen und der Schädelfund und überlegt, ob ihr gemeinsam nachforschen sollt.",
+"option3": "Du beschließt, das Ganze zu vergessen und nie wieder darüber nachzudenken."
+}
+
+"scene": "You decide to forget the whole thing and never think about it again. As much as the discovery of the skull piqued your curiosity, the fear of getting mixed up in something dangerous outweighs it. You force the unsettling experience out of your mind and vow to be more cautious about exploring unfamiliar places in the future. The abandoned mansion and its secrets will have to remain a mystery.",
+"option1": "Du gehst zur Polizei und berichtest von deiner gruseligen Entdeckung.",
+"option2": "Du erzählst deinen Freunden von dem Schädel und ihr beschließt, gemeinsam der Sache auf den Grund zu gehen.",
+"option3": "Du machst dich auf die Suche nach weiteren Hinweisen und kehrst zu dem verlassenen Anwesen zurück."
+}
+
+"scene": "You decide to go to the police and report your creepy discovery. After giving a statement about finding the human skull on the grounds of the abandoned mansion, the authorities launch an investigation. A few days later, you are contacted by the detective on the case. He informs you that they have identified the remains as belonging to a young woman who went missing over a year ago. Her disappearance was suspected to be foul play, but they had no leads until now. The detective thanks you for coming forward, as your information may help crack this cold case wide open. Though shaken by the grim revelation, you are relieved to have done the right thing.",
+"option1": "Du bist froh, dass du zur Polizei gegangen bist, und hoffst, dass der Fall nun gelöst werden kann.",
+"option2": "Die Erkenntnis, dass es sich bei dem Schädel um die Überreste einer vermissten Frau handelt, lässt dich fassungslos zurück.",
+"option3": "Du fragst dich, ob du selbst in Gefahr warst, als du die Leiche entdeckt hast, und ob der Mörder noch in der Gegend sein könnte."
+}
+
+"scene": "The realization that the skull belonged to a missing woman leaves you stunned. You can't believe you stumbled upon such a grisly clue to an unsolved crime. Part of you is disturbed by the thought of what may have happened to the poor victim, but another part feels a sense of morbid curiosity to learn more about the case.",
+"option1": "Du entscheidest dich, der Polizei weitere Informationen zu geben, falls du dich an irgendwelche verdächtigen Details erinnern kannst.",
+"option2": "Du möchtest nichts mehr mit dieser schrecklichen Sache zu tun haben und versuchst, sie aus deinen Gedanken zu verbannen.",
+"option3": "Du fragst den Detektiv, ob du auf dem Laufenden gehalten werden kannst, während die Ermittlungen fortschreiten."
+}
+
+"scene": "The realization that the skull belonged to a missing woman leaves you stunned. You can't believe you stumbled upon such a grisly clue to an unsolved crime. Part of you is disturbed by the thought of what may have happened to the poor victim, but another part feels a sense of morbid curiosity to learn more about the case.",
+"option1": "Du fragst den Detektiv, ob du auf dem Laufenden gehalten werden kannst, während die Ermittlungen fortschreiten.",
+"option2": "Du beschließt, die Sache auf sich beruhen zu lassen und nicht weiter daran zu denken.",
+"option3": "Du bietest dem Detektiv deine Hilfe bei den Ermittlungen an, da du mehr über den Fall erfahren möchtest."
+}
+
+"scene": "You decide to let the matter rest and not think about it any further. While the discovery of the skull piqued your morbid curiosity about the case, the disturbing nature of it all makes you want to put it out of your mind. You convince yourself that it's best not to dwell on such grim affairs, and to move on with your life. The mystery of what happened at that abandoned mansion will have to remain unsolved as far as you're concerned.",
+"option1": "Du entscheidest dich, die Sache auf sich beruhen zu lassen und nie wieder darüber nachzudenken.",
+"option2": "Du fragst den Detektiv, ob du auf dem Laufenden gehalten werden kannst, während die Ermittlungen fortschreiten.",
+"option3": "Die Erkenntnis, dass es sich bei dem Schädel um die Überreste einer vermissten Frau handelt, lässt dich fassungslos zurück."
+}
+
+"scene": "You decide to let the matter rest and never think about it again. While the discovery of the skull piqued your morbid curiosity about the case, the disturbing nature of it all makes you want to put it out of your mind. You convince yourself that it's best not to dwell on such grim affairs, and to move on with your life. The mystery of what happened at that abandoned mansion will have to remain unsolved as far as you're concerned.",
+"option1": "Du beschließt, dich auf andere Dinge zu konzentrieren und die ganze Sache zu vergessen.",
+"option2": "Du kannst die Neugier nicht unterdrücken und beschließt, heimlich eigene Nachforschungen anzustellen.",
+"option3": "Die Sache lässt dir keine Ruhe, also gehst du erneut zur Polizei, um mehr Informationen zu erhalten."
+}
+
+"scene": "You can't suppress your curiosity and decide to secretly conduct your own investigation into the case. Despite the disturbing nature of the discovery, you feel compelled to learn more about what happened to the missing woman and the secrets surrounding that abandoned mansion. You begin scouring the internet and public records for any information that could shed light on this mystery. However, you'll have to tread carefully, as getting too involved in an active criminal case could land you in hot water.",
+"option1": "Du beschließt, deine Nachforschungen aufzugeben, da es zu gefährlich ist.",
+"option2": "Du suchst nach Hinweisen in der Nähe des verlassenen Anwesens.",
+"option3": "Du versuchst, mit Freunden oder Verwandten des Opfers zu sprechen, um mehr Informationen zu erhalten."
+}
+
+"scene": "You decide to try and speak with friends or relatives of the victim in hopes of learning more information. This is a risky move, as you are now actively involving yourself in a criminal investigation as a civilian. However, your curiosity drives you to seek out any clues or insights you can find. You scour online records and social media to try and identify potential contacts close to the missing woman. If you can gain their trust, they may be willing to share details about her life that could prove useful. But you'll have to be cautious, as you are treading into legally and emotionally fraught territory.",
+"option1": "Du kontaktierst vorsichtig einige Freunde des Opfers und fragst sie aus.",
+"option2": "Du entscheidest, dass es zu gefährlich ist und lässt die Sache bleiben.",
+"option3": "Du versuchst, mit der Familie des Opfers zu sprechen, in der Hoffnung, dass sie dir mehr Informationen geben können."
+}
+
+"scene": "You decide to go right, following a winding path through a lush orchard filled with fruit trees. The sweet scent of ripe apples and oranges fills the air. As you wander deeper into the orchard, you come across a small wooden bench nestled beneath the boughs of a large apple tree. Sitting on the bench is a beautiful young woman with long flowing hair, reading a book.",
+"option1": "Sie nähern sich der Frau und versuchen, ein Gespräch zu beginnen.",
+"option2": "Sie verstecken sich hinter einem Baum und beobachten die Frau heimlich.",
+"option3": "Sie gehen leise weiter, um die Frau nicht zu stören."
+}
+
+"scene": "You approach the woman and try to strike up a conversation. She looks up from her book, a little startled at first, but then smiles warmly at you. \"Hello there,\" she says in a soft, melodious voice. \"I didn't expect to have any company out here today. Please, have a seat.\" She gestures to the empty spot beside her on the bench. The two of you begin chatting, and you quickly become entranced by her wit and charm. As you talk, she occasionally reaches up to pluck a ripe apple from the tree above, taking a bite and offering you one as well. The sweet, crisp flavor bursts across your tongue, complementing the warmth of the afternoon sun filtering through the leaves.",
+"option1": "Sie bedanken sich für das Obst und fragen sie, ob sie öfter hier sitzt und liest.",
+"option2": "Sie erzählen ihr von Ihrem Interesse an Gärten und Obstbäumen und fragen sie, ob sie etwas darüber weiß.",
+"option3": "Sie machen ihr ein Kompliment über ihre Schönheit und fragen sie, ob sie hier wohnt."
+}
+
+"scene": "You compliment her on her beauty and ask if she lives here. She blushes slightly and tucks a stray strand of hair behind her ear. "Why thank you, you're too kind," she replies. "But no, I don't actually live here. This is the estate of my uncle, Lord Eddington. I'm just visiting for a few weeks." She pauses, studying you curiously. "And you? I don't believe I've seen you around here before."",
+"option1": "Sie erzählen ihr, dass Sie ein Reisender sind, der die Gegend erkundet.",
+"option2": "Sie geben zu, dass Sie sich auf dem Anwesen verlaufen haben und nicht genau wissen, wo Sie sind.",
+"option3": "Sie wechseln das Thema und fragen sie, was für ein Buch sie liest."
+}
+
+"scene": "You compliment the woman on her beauty and ask if she lives here. She blushes slightly and replies, "Why thank you, you're too kind. And yes, this is my family's estate. I come out to the orchard to read whenever I can - it's my favorite spot." She tucks a stray strand of hair behind her ear, her eyes sparkling. "I don't think I've seen you around before. Are you new to the area?" As she speaks, a light breeze rustles the branches above, causing a few flower petals to drift down and land in her hair like delicate adornments.",
+"option1": "Sie erzählen ihr, dass Sie ein Reisender sind und gerade in der Stadt angekommen sind.",
+"option2": "Sie sagen ihr, dass Sie ein Freund der Familie sind und zu Besuch gekommen sind.",
+"option3": "Sie geben zu, dass Sie sich etwas verlaufen haben und fragen nach dem Weg zurück zur Stadt."
+}
+
+"scene": "You compliment the woman on her beauty and ask if she lives here. She blushes slightly and replies, "Why thank you, you are too kind. And yes, this is my family's orchard. I come here often to read and enjoy the peace and quiet." She tucks a stray strand of hair behind her ear, her eyes sparkling as she looks at you. "I don't think I've seen you around before. Are you new to the area?"",
+"option1": "Sie erzählen ihr, dass Sie gerade erst angekommen sind und sich noch nicht so gut auskennen.",
+"option2": "Sie fragen sie, ob sie Ihnen den Garten und das Anwesen zeigen könnte.",
+"option3": "Sie machen ihr ein weiteres Kompliment und fragen sie, ob sie einen Freund hat."
+}
+
+"scene": "You compliment the woman on her beauty and ask if she lives here. She blushes slightly and replies, "Why thank you, you are too kind. And yes, I do live here at the manor. My family has owned this estate for generations." She gestures around at the expansive orchard surrounding you. "I come out here often to read and enjoy the peace and quiet. It's my favorite spot." As she speaks, you notice a sort of wistful look in her eyes, as if she longs for something more beyond these walls. The two of you continue chatting and snacking on apples, a warm connection beginning to form.",
+"option1": "Sie fragen sie, ob sie sich oft einsam fühlt, hier auf dem großen Anwesen ganz alleine zu leben.",
+"option2": "Sie erzählen ihr von Ihren eigenen Reisen und Abenteuern in der Welt da draußen.",
+"option3": "Sie machen ihr einen Heiratsantrag - im Scherz natürlich."
+}
+
+"scene": "You compliment her on her beauty and ask if she lives here. A faint blush colors her cheeks as she smiles shyly. "Why thank you, you are too kind," she replies. "But no, I don't actually live here. This is the orchard belonging to the estate next door. I just come here sometimes to read and enjoy the peace and quiet." She pauses, studying you curiously. "I don't believe I've seen you around here before. Are you new to the area?"",
+"option1": "Sie erzählen ihr, dass Sie gerade erst angekommen sind und sich noch nicht so gut auskennen.",
+"option2": "Sie erklären, dass Sie nur auf der Durchreise sind und den Ort zufällig entdeckt haben.",
+"option3": "Sie geben zu, dass Sie einfach nur spazieren waren und den Weg hierher gefunden haben."
+}
+
+"scene": "You climb over the wrought iron gate and land softly on the other side. The grounds of the mansion are immaculately kept, with rows of perfectly trimmed hedges and vibrant flower beds. As you approach the grand entrance, you notice the large oak door is slightly ajar. A warm glow emanates from within, beckoning you inside.",
+"option1": "Entrar sigilosamente en la mansión",
+"option2": "Llamar a la puerta principal",
+"option3": "Explorar más los jardines"
+}
+
+"scene": "Tobi se acerca a la puerta principal y llama con fuerza. Después de un momento, la puerta se abre revelando a una mujer mayor con un delantal de jardinería. Ella sonríe cálidamente y dice: "Bienvenido, debe ser el nuevo jardinero que contratamos. Pase, pase. Nuestro huerto de frutas está por aquí". Ella lo guía a través de un pasillo hacia el patio trasero donde se extiende un vasto huerto rebosante de árboles frutales en flor.",
+"option1": "Seguir a la mujer al huerto",
+"option2": "Explicar que hay un malentendido y que no es el jardinero",
+"option3": "Preguntar por el dueño de la mansión"
+}
+
+"scene": "You cautiously make your way through the lush gardens, taking in the sweet floral scents and the gentle trickle of a nearby fountain. As you round a tall hedge, you come upon a secluded gazebo surrounded by rose bushes. Sitting on the bench inside is a stunningly beautiful woman, her face buried in a book. She seems completely unaware of your presence.",
+"option1": "Acercarse sigilosamente y tratar de echar un vistazo al libro que está leyendo.",
+"option2": "Aclararse la garganta para llamar su atención de una manera educada.",
+"option3": "Darse la vuelta y alejarse rápidamente antes de que te note."
+}
+
+"scene": "You tiptoe closer to the gazebo, trying to catch a glimpse of the book's title. As you lean in, a thorn from a rose bush snags your sleeve, causing you to stumble forward with a yelp. The woman looks up, startled, and your eyes meet. For a moment, time seems to stand still as you gaze into her deep emerald eyes.",
+"option1": "Disculparse y presentarse",
+"option2": "Salir corriendo, avergonzado",
+"option3": "Ofrecerle una fruta de los jardines como disculpa"
+}
+
+"scene": "You extend a freshly picked apple from the garden towards the woman, offering it as an apology for startling her. She eyes you warily at first, but then a warm smile spreads across her face. \"Thank you,\" she says, accepting the fruit. \"I'm Sophia. And you are?\" Her melodic voice sends your heart fluttering.",
+"option1": "Presentarse y tratar de hacer una broma para aliviar la tensión.",
+"option2": "Disculparse nuevamente y preguntar qué está leyendo.",
+"option3": "Quedarse en silencio, demasiado nervioso para hablar."
+}
+
+"scene": "You extend a freshly picked apple from the garden towards the woman, offering it as an apology for startling her. She eyes you warily at first, but then a warm smile spreads across her face. \"Thank you,\" she says, accepting the fruit. \"I'm Sophia. And you are?\" Her melodic voice sends your heart fluttering.",
+"option1": "Presentarse y tratar de hacer una broma para aliviar la tensión.",
+"option2": "Decirle su nombre y preguntarle qué está leyendo.",
+"option3": "Quedarse en silencio, demasiado nervioso para hablar."
+}
+
+"scene": "You climb over the tall wrought iron gate and drop down into the overgrown garden on the other side. Weeds and vines cover the path leading up to the mansion's front door. An eerie silence hangs in the air, as if the house itself is holding its breath. As you approach, you notice the front door is slightly ajar.",
+"option1": "Benyitsz az ajtón.",
+"option2": "Körülnézel a kertben további nyomok után.",
+"option3": "Visszamész a kapuhoz és elhagyod a helyszínt."
+}
+
+"scene": "You carefully make your way through the tangled garden, searching for any clues or signs of what might be going on inside the mansion. As you push aside some overgrown bushes, you notice a glint of metal half-buried in the dirt. You dig it out to reveal an old rusted key.",
+"option1": "Megpróbálod a kulcsot az ajtóban",
+"option2": "Körülnézel, hátha találsz még valamit",
+"option3": "Visszamész a kapuhoz és elhagyod a helyszínt"
+}
+
+"scene": "You decide to go right, walking along the edge of the tall iron fence surrounding the mansion grounds. The path winds through a lush garden filled with fragrant flowers and neatly trimmed hedges. Up ahead, you notice a small wooden gate tucked away in a secluded corner of the garden.",
+"option1": "Öffnen Sie das Tor und betreten Sie den Garten.",
+"option2": "Gehen Sie weiter den Weg entlang und ignorieren Sie das Tor.",
+"option3": "Kehren Sie zum Haupttor zurück."
+}
+
+"scene": "You walk left around the side of the mansion, keeping close to the wall. The grounds are overgrown with weeds and vines creeping up the stone exterior. As you round the corner, you notice a small window slightly ajar near the ground. It looks just big enough for you to crawl through.",
+"option1": "Tratar de abrir la ventana y entrar",
+"option2": "Seguir caminando alrededor de la mansión",
+"option3": "Regresar a la puerta principal"
+}
+
+"scene": "You decide to go right around the mansion. As you walk along the side, you notice a small window slightly ajar. Peering inside, you see what appears to be a study with bookshelves lining the walls and a large oak desk in the center. On the desk, you spot a piece of paper that seems to have some sort of scribbled writing on it.",
+"option1": "Versuchen, durch das Fenster zu klettern und die Notiz zu lesen.",
+"option2": "Weitergehen und einen anderen Eingang suchen.",
+"option3": "Zurück zum Haupttor gehen und klingeln."
+}
+
+"scene": "You walk left around the mansion, following a cobblestone path lined with fruit trees. The sweet scent of ripe apples and oranges fills the air. Up ahead, you see a small wooden door set into a high stone wall. As you approach, you notice a bronze plaque next to the door.",
+"option1": "Die Tür öffnen",
+"option2": "Die Plakette lesen",
+"option3": "Zurück zum Haupttor gehen"
+}
+
+"scene": "You walk left around the mansion, keeping close to the high stone walls. The path leads you to a small garden area with overgrown bushes and weeds. In the center, you notice a weathered sundial covered in moss and vines. As you approach, something catches your eye - a glint of metal peeking out from beneath the sundial's base.",
+"option1": "Du hebst vorsichtig den Sockel des Sonnenzeigers an, um zu sehen, was darunter liegt.",
+"option2": "Du lässt den Gegenstand liegen und gehst weiter den Weg entlang.",
+"option3": "Du nimmst einen Stock auf und stößt damit unter den Sockel, um den Gegenstand hervorzuholen."
+}
+
+"scene": "You walk left along the tall iron fence surrounding the mansion grounds. The path winds through thick bushes and trees, obscuring your view of the house. Up ahead, you notice a small door built into the fence. It seems to be unlocked.",
+"option1": "Öffnen Sie die Tür und betreten Sie die Anlagen.",
+"option2": "Gehen Sie weiter den Weg entlang und ignorieren Sie die Tür.",
+"option3": "Kehren Sie zum Haupttor zurück."
+}
+
+"scene": "You continue walking left along the perimeter of the mansion grounds. The path winds through thick foliage and overgrown bushes. Up ahead, you notice a small shed tucked away in the corner of the property. As you approach, you hear faint noises coming from inside.",
+"option1": "Vorsichtig die Hütte betreten",
+"option2": "Leise um die Hütte herum schleichen",
+"option3": "Laut nach drinnen rufen"
+}
+
+"scene": "You cautiously approach the shed, your heart pounding in your chest. As you reach for the door handle, you take a deep breath and slowly pull it open. Inside, the shed is dimly lit, and you can make out various gardening tools and supplies lining the walls. However, in the center of the room, you notice a large object covered by a tarp. The faint noises you heard earlier seem to be coming from underneath it.",
+"option1": "Vorsichtig die Plane entfernen und sehen, was darunter ist",
+"option2": "Die Hütte schnell verlassen und zur Hauptstraße zurückkehren",
+"option3": "Leise in der Hütte umherschauen und nach weiteren Hinweisen suchen"
+}
+
+"scene": "You cautiously enter the shed, pushing the creaky door open. Inside, it's dimly lit and cluttered with various tools and gardening equipment. In the corner, you notice a huddled figure, shaking slightly. As you take a step closer, the figure whips around, revealing the terrified face of a young woman. She lets out a scream before clamping her hand over her mouth.",
+"option1": "Versuchen, sie zu beruhigen",
+"option2": "Schnell die Hütte verlassen",
+"option3": "Fragen, was los ist"
+}
+
+"scene": "You climb over the wrought iron gate and land softly on the other side. The grounds of the mansion are immaculately kept, with rows of perfectly trimmed hedges and vibrant flower beds. As you approach the grand entrance, you notice the large oak door is slightly ajar. A warm glow emanates from within, beckoning you inside.",
+"option1": "Entrar sigilosamente en la mansión",
+"option2": "Llamar a la puerta principal",
+"option3": "Explorar más los jardines"
+}
+
+"scene": "You slip through the open door and find yourself in a grand foyer. The interior is lavishly decorated with plush rugs, ornate furniture, and sparkling chandeliers. The sound of laughter and music drifts in from another room. As you move further inside, you catch a glimpse of a figure disappearing around a corner.",
+"option1": "Seguir a la figura misteriosa",
+"option2": "Explorar la mansión por tu cuenta",
+"option3": "Regresar por donde viniste"
+}
+
+"scene": "You walk left around the mansion, following a cobblestone path lined with fruit trees. The sweet scent of ripe apples and oranges fills the air. Up ahead, you see a small wooden door set into a high stone wall. As you approach, you notice a bronze plaque next to the door.",
+"option1": "Die Tür öffnen",
+"option2": "Die Plakette lesen",
+"option3": "Zurück zum Haupttor gehen"
+}
+
+"scene": "You decide to go right, following a winding path through a lush orchard filled with fruit trees. The sweet scent of ripe apples and oranges fills the air. As you wander deeper into the orchard, you come across a small wooden bench nestled beneath the boughs of a large apple tree. Sitting on the bench is a beautiful young woman with long flowing hair, reading a book.",
+"option1": "Sie nähern sich der Frau und versuchen, ein Gespräch zu beginnen.",
+"option2": "Sie verstecken sich hinter einem Baum und beobachten die Frau heimlich.",
+"option3": "Sie gehen leise weiter, um die Frau nicht zu stören."
+}

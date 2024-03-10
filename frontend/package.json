@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
+    "@google-cloud/translate": "^8.1.0",
     "@vitejs/plugin-react": "^4.2.1",
     "formkit": "^1.5.9",
     "react": "^18.2.0",

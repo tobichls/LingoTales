@@ -7,6 +7,7 @@ import json
 import tiktoken
 
 import api
+import random
 
 
 TOKENLIMIT = 4000
@@ -44,6 +45,10 @@ def join_data(language, name, beginner, genre, theme):
     sys = "This is an interactive story where the user's character name is: " + name + '\n'
     sys += "The user is a beginner." + '\n'
     sys += "As users progress through the story, the app adapts the language to the user's chosen target language, creating a contextualized learning experience." + '\n'
+    sys += "The genre of the story is: " + genre + '\n'
+    random_number = random.randint(0, 10)
+    if random_number > 4:
+        sys += "The common theme of the story must be: " + theme + '\n'
     sys += "Please generate the next scene in the story in no more than one paragraph and generate 3 options for the user to choose to continue the story." + '\n'
     sys += "The scenes must be given in English and the options must be given in "  + language + '\n'
     sys += 'Give the scenes in the format {"scene": "the description of the scene and story", "option1": "the first options", "option2": "the second option", "option3": "the third option"}\n'
