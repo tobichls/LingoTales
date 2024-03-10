@@ -128,6 +128,10 @@ input {
   height: 80px;
 }
 
+.custom-animated-button {
+  background-color: var(--secondary);
+}
+
 .hover-color-shift {
   animation: color-shift 3s linear forwards;
   background-image: linear-gradient(to right, var(--secondary), var(--accent));
