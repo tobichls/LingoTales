@@ -285,3 +285,55 @@
 "option3": "Ihr Magen knurrt und Sie beschließen, einen der Essens-Stände aufzusuchen, um sich zu stärken."
 }
 ]}
+
+{"scene": "You step on the orange and it squishes under your foot, leaving a sticky mess. As you look around, you realize you are in a bustling market filled with stalls selling all sorts of exotic fruits and vegetables. The air is thick with the aroma of spices and the chatter of merchants haggling with customers. A small child runs past you, nearly knocking you over.",
+"option1": "Folgen Sie dem Kind und sehen, wohin es läuft.",
+"option2": "Entschuldigen Sie sich bei dem Verkäufer, dessen Orangen Sie zertreten haben.",
+"option3": "Verlassen Sie den Markt und erkunden Sie die umliegenden Straßen."
+},
+{"scene": "You step on the orange and it squishes under your foot, leaving a sticky mess. As you look around, you realize you are in the kitchen of a fancy restaurant. The head chef is yelling orders in multiple languages while line cooks scramble to plate intricate dishes. A waiter rushes past you with a tray of drinks, giving you a dirty look for being in the way.",
+"option1": "Helfen Sie den Köchen, indem Sie ein paar Orangen schälen.",
+"option2": "Verlassen Sie schnell die Küche, bevor der Chef Sie entdeckt.",
+"option3": "Fragen Sie den Ober, ob Sie einen Tisch für einen reservieren können."
+},
+{"scene": "You step on the orange and it squishes under your foot, leaving a sticky mess. As you look around, you realize you are in a lush tropical garden, surrounded by vibrant flowers and towering palm trees. A small stream trickles nearby, and colorful birds flit from branch to branch. In the distance, you can hear the faint sound of waves crashing on a beach.",
+"option1": "Folgen Sie dem Bach und sehen, wohin er führt.",
+"option2": "Pflücken Sie ein paar der exotischen Blumen für einen Blumenstrauß.",
+"option3": "Gehen Sie in Richtung des Meeresrauschens, um den Strand zu finden."}
+]}
+
+{"scene": "You step on an orange and it squishes under your foot, leaving a sticky mess. As you look around, you realize you are in a strange forest filled with giant fruits and vegetables.", 
+"option1": "Versuchen Sie, einen Weg aus dem Wald zu finden",
+"option2": "Pflücken Sie einige der riesigen Früchte, um sie zu essen",
+"option3": "Rufen Sie nach Hilfe, falls jemand in der Nähe ist"
+},
+
+{"scene": "You step on an apple and it crunches loudly. Looking around, you see trees filled with massive apples the size of pumpkins. The forest seems to be made up entirely of oversized produce.", 
+"option1": "Klettern Sie auf einen der Apfelbäume, um sich umzusehen",
+"option2": "Versuchen Sie, einen Weg aus diesem seltsamen Ort zu finden",
+"option3": "Sammeln Sie einige der riesigen Äpfel als Proviant"
+},
+
+{"scene": "You decide not to step on any more fruit and carefully make your way through the bizarre vegetable forest. Up ahead, you see a clearing with a massive pumpkin sitting in the middle.",
+"option1": "Gehen Sie vorsichtig zur riesigen Kürbis",
+"option2": "Bleiben Sie im Wald und suchen Sie nach einem Ausgang",
+"option3": "Rufen Sie laut, ob jemand da ist, der Ihnen helfen kann"
+}
+]}
+
+{"scene": "You follow the sound of the waves and soon find yourself standing on a pristine white sand beach. The crystal clear water sparkles invitingly in the warm sunlight. A gentle breeze rustles the palm fronds overhead. You spot a small thatched hut nestled among the trees a short distance away.",
+"option1": "Gehen Sie zum Strand und schwimmen Sie im Meer",
+"option2": "Erkunden Sie die Hütte",
+"option3": "Folgen Sie dem Bach flussaufwärts"
+},
+{"scene": "Neugierig auf die Hütte, nähern Sie sich vorsichtig. Als Sie näher kommen, bemerken Sie, dass die Tür offen steht und Rauch aus dem Kamin aufsteigt. Vor der Hütte steht ein kleiner Tisch mit zwei Stühlen. Auf dem Tisch liegen ein paar Kokosnüsse und eine seltsam aussehende Frucht.",
+"option1": "Klopfen Sie an die Tür und rufen Sie nach dem Bewohner",
+"option2": "Setzen Sie sich an den Tisch und untersuchen Sie die Frucht",
+"option3": "Verlassen Sie die Hütte und gehen Sie zurück zum Strand"
+},
+{"scene": "Sie entscheiden sich, dem Bach flussaufwärts zu folgen. Der Weg wird bald schmaler und windungsreicher, während Sie tiefer in den dichten Dschungel vordringen. Exotische Vogelrufe und das Zirpen von Insekten erfüllen die feuchte Luft. Nach einer Weile erreichen Sie eine kleine Lichtung mit einem kleinen Wasserfall, der in einen kristallklaren Teich stürzt.",
+"option1": "Baden Sie im kühlen Teich",
+"option2": "Untersuchen Sie die Umgebung nach Spuren anderer Menschen",
+"option3": "Kehren Sie zum Strand zurück, bevor es dunkel wird"
+}
+]}
