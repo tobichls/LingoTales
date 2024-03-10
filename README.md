@@ -24,13 +24,15 @@ Generative AI enables a huge variety of different languages as opposed to mainst
 ### A story for everyone
 Users choose the genre they love for the story.
 [EXAMPLE SCREENSHOT HERE] <br>
+### Practice specific vocabulary
+An category of vocabulary can be frequently and seamlessly weaved into the story.
+[EXAMPLE SCREENSHOT HERE] <br>
 ### No story will ever be the same.
 Generative AI allows for cascading plotlines. <br>
-After just 15 user interactions, there are more than 1.5 million possible storylines for the user to 
+After just 15 user interactions, there are more than 14 million unique storyline combinations.
 [EXAMPLE SCREENSHOT HERE] <br>
-- User can listen to their chosen language.
-- Users can practice specific vocabulary weaved seamlessly into the story.
-- Catering to all ability levels ranging from beginner to advanced.
+### User can listen to their chosen language.
+Listen to real-time translations of interaction options for those who need a helping hand.
 
 ## Technologies Used
 
@@ -48,6 +50,7 @@ After just 15 user interactions, there are more than 1.5 million possible storyl
 - Speech input
 - Accompanying media to the story (images, music etc...)
 - Earn rewards for high competency in the stories
+- Catering to all ability levels ranging from beginner to advanced.
 
 [EMBED DEMO VIDEO HERE]
 
