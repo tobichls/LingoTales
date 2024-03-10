@@ -47,7 +47,7 @@ Listen to real-time translations of interaction options for those who need a hel
 <br>
  
 # Demonstration
-Link to working prototype demo: [here](109.152.136.83:80)
+Link to working prototype demo: 109.152.136.83
 [EMBED DEMO VIDEO HERE]
 
 <br>
