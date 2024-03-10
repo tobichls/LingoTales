@@ -37,6 +37,11 @@ Listen to real-time translations of interaction options for those who need a hel
 
 <br>
 
+# Demonstration
+[EMBED DEMO VIDEO HERE]
+
+<br>
+
 ## Technologies Used
 
 | Technology Used               | Purpose                           |
@@ -56,6 +61,4 @@ Listen to real-time translations of interaction options for those who need a hel
 - Accompanying media to the story (images, music etc...)
 - Earn rewards for high competency in the stories
 - Catering to all ability levels ranging from beginner to advanced.
-
-[EMBED DEMO VIDEO HERE]
 
