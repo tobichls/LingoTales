@@ -16,7 +16,9 @@ Say goodbye to mundane textbooks and rote memorization. Join us in reshaping lan
 <br>
 
 ## What is LingoTales?
-Stories are initially told in English (or the user's native tongue), and they can then choose from a series of options presented in their chosen language. The next scene in the story is generated from the user's response.
+LingoTales is aa web application designed to facilitate language learning through intuitive, context-driven methods, offering a refreshing alternative to the rote memorization commonly found in mainstream language learning apps.
+
+Through LingoTales, users engage with interactive "stories" where they wield control over the storyline's progression. By selecting from a variety of choices presented in their preferred language, learners immerse themselves in a captivating learning experience, tailored to their individual linguistic goals.
 
 <br>
 
