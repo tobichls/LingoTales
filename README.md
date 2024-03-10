@@ -57,6 +57,12 @@ Feel free to look around our prototype demonstration website: [demonstration web
 
 <br>
 
+## Code Structure
+
+The web interface is built with React for a smooth user experience. `App.jsx` is the main hub where top level data is stored for use in API calls. The `MultiStepForm` component collects user data for setting up the story. Responses from the backend are stored in state and displayed. 
+
+<br>
+
 ## Next Steps
 
 - Wildcard choices - higher ability users are given the opportunity to input anything as a choice, dramatically altering the range of stories to be told.
