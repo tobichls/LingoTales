@@ -28,13 +28,13 @@ def init(system_message, backend = "claude"):
 
 
 # takes messages in the format {"role": role, "content": message}
-def send_message(client, message, sys_msg="", force_json = False):
+def send_message(client, message, sys_msg="", force_json = False, response_start="Sure here is the json:", json_start = "\n{"):
     if not (client == None):
         
 
         if force_json:
             messages = [{"role": "user", "content": message},
-                        {"role": "assistant", "content": "Sure here is the json:\n{"}]
+                        {"role": "assistant", "content": response_start + json_start}]
             
             response = client.messages.create(
                 model="claude-3-sonnet-20240229",
@@ -46,7 +46,7 @@ def send_message(client, message, sys_msg="", force_json = False):
 
 
             log(response.content[0].text)
-            return "{" + response.content[0].text
+            return json_start + response.content[0].text
 
         else:
             response = client.messages.create(

@@ -24,6 +24,26 @@ const myVoices = {
 function App() {
   const [ options, setOptions ] = useState(["climb the gate", "walk left", "go right"])
   const [ message, setMessage ]  = useState("You walk up to the gate of a large looming mansion you ")
+  const [ nextPanels, setNextPanels] = useState([
+    {
+      "scene": "You step on an apple",
+      "option1":"Hop",
+      "option2":"Skip",
+      "option3":"Jump"
+    },
+    {
+      "scene": "You step on a pear",
+      "option1":"Hop",
+      "option2":"Skip",
+      "option3":"Jump"
+    },
+    {
+      "scene": "You step on an orange",
+      "option1":"Hop",
+      "option2":"Skip",
+      "option3":"Jump"
+    }
+  ])
   const [ panels, setPanels ] = useState([])
   const [ formSubmitted, setFormSubmitted ] = useState(false)
   const [ contextualData, setContextualData ] = useState(null)
@@ -40,18 +60,30 @@ function App() {
   }
 
   const next = (event) => {
-    const selectedOption = event.target.innerText
+    const selectedOption = event.target.id
     console.log(selectedOption)
 
+
     const newPanels = [...panels, {
-      "scene": message,
-      "option1": options[0],
-      "option2": options[1],
-      "option3": options[2],
+      "scene": nextPanels[selectedOption].scene,
+      "option1": nextPanels[selectedOption].option1,
+      "option2": nextPanels[selectedOption].option2,
+      "option3": nextPanels[selectedOption].option3,
       "userChoice": selectedOption
     }]
 
+    setMessage(nextPanels[selectedOption].scene)
+    setOptions([nextPanels[selectedOption].option1, nextPanels[selectedOption].option2, nextPanels[selectedOption].option3])
     setPanels(newPanels)
+
+
+    // const newPanels = [...panels, {
+    //   "scene": message,
+    //   "option1": options[0],
+    //   "option2": options[1],
+    //   "option3": options[2],
+    //   "userChoice": selectedOption
+    // }]
 
     const data = {
       ...contextualData,
@@ -82,8 +114,11 @@ function App() {
   }
 
   const update = (data) => {
-    setMessage(data.scene)
-    setOptions([data.option1, data.option2, data.option3])
+    // setMessage(data.scene)
+    // setOptions([data.option1, data.option2, data.option3])
+    console.log("update: ")
+    console.log(data)
+    setNextPanels(data.scenes)
   }
 
   // Initialize voices array
@@ -134,6 +169,7 @@ function App() {
                 key={i} 
                 className="option" 
                 onClick={next}
+				id={i}
                 onMouseEnter={() => translateAndSpeak(option)}
               >
                 {option}
@@ -145,5 +181,6 @@ function App() {
       : <MultiStepForm handleFormSubmittedState={handleFormSubmittedState} />}
     </>
   );
+
 }
 export default App
