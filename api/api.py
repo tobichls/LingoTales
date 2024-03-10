@@ -8,7 +8,7 @@ def log(message):
     file.write("\n" + message)
     file.close()
 
-
+# initializes connection with backend llm
 def init(system_message, backend = "claude"):
     sys_msg = system_message
     if backend == "gpt":
@@ -27,11 +27,11 @@ def init(system_message, backend = "claude"):
         return client
 
 
-# takes messages in the format {"role": role, "content": message}
+# gets text completion from llm with option to force json response
 def send_message(client, message, sys_msg="", force_json = False, response_start="Sure here is the json:", json_start = "\n{"):
     if not (client == None):
         
-
+        # force json response by starting response for the llm and leaving in on a curly brace character
         if force_json:
             messages = [{"role": "user", "content": message},
                         {"role": "assistant", "content": response_start + json_start}]

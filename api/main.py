@@ -13,16 +13,6 @@ import random
 TOKENLIMIT = 4000
 ENCODING = tiktoken.encoding_for_model("gpt-3.5-turbo-1106")
 
-# file = open("key.txt", "r")
-# api_key = file.read()
-# file.close()
-
-# client = anthropic.Anthropic(
-#     # defaults to os.environ.get("ANTHROPIC_API_KEY")
-#     api_key=api_key,
-# )
-
-
 # function to join the story element objects into a prompt
 def join_story_elements(story_elements):
     print(story_elements)
@@ -94,7 +84,7 @@ def get_next_scene(story_elements, language, name, beginner, genre, theme):
     responseObject = json.loads(response)
     return responseObject["scene"], responseObject["option1"], responseObject["option2"], responseObject["option3"]
 
-
+# preloads 3 possible future scenes to mitigate delay using llm apis
 def get_next_scenes(story_elements, language, name, beginner, genre, theme):
     prompt = join_story_elements(story_elements)
     sys = join_data(language, name, beginner, genre, theme)
@@ -135,13 +125,8 @@ def check_gpt_response(gpt_response):
         return response_dict
 
 
+# configures the initial prompt to start the story
 def setup_prompt(language, name, beginner, genre, theme):
-    # prompt = (
-    #     "You are an interactive story teller and language learning assistant.\n"
-    #     "The goal is to help the user learn the language " + language + " through an interactive text based story.\n"
-    #     "The theme for the story is " + theme + ", the story should have " + language + " words in the theme scattered in the mostly english story as these are the words the user wishes to learn.\n"
-
-    # )
 
     prompt = (
         "You are an interactive story teller and language learning assistant.\n"
@@ -175,7 +160,7 @@ CORS(app)
 
 client = api.init("")
 
-
+# returns initial story block
 @app.route("/start", methods=["POST"])
 def start():
     if request.method == "POST":
