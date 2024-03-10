@@ -6,6 +6,13 @@ Say goodbye to mundane textbooks and rote memorization. Join us in reshaping lan
 
 <br>
 
+# Why Language Learning Matters
+"**England has a language education crisis**: fewer people are studying languages at school and university language programmes are closing." - Becky Muradás-Taylor, "Undergraduate language programmes in England: A widening participation crisis"
+
+[Read more about Becky's insights](https://journals.sagepub.com/doi/10.1177/14740222231156812)
+
+<br>
+
 # What is LingoTales?
 [IMAGE HERE] <br>
 Stories are initially told in English (or the user's native tongue), and they can then choose from a series of options presented in their chosen language. The next scene in the story is generated from the user's response.
