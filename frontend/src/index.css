@@ -44,7 +44,8 @@ body {
   margin: 0;
   display: flex;
   min-width: 320px;
-  max-height: 100vh;
+  height: 100vh;
+  background: linear-gradient(350deg, rgba(88,22,255,0.6) 0%, rgba(4,3,12,0) 60%);;
 }
 
 h1 {
