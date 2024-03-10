@@ -268,7 +268,7 @@ function App() {
                 return (
                   <button
                     className={`custom-animated-button`}
-                    style={{ backgroundColor: "blue"}}
+                    // style={{ backgroundColor: "blue"}}
                     // onMouseDown={handleMouseEnter(option, i)}
                     // onMouseUp={handleMouseLeave(i)}
                     onContextMenu={(event) => {
