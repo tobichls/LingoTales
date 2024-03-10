@@ -28,5 +28,3 @@ Stories are initially told in English (or the user's native tongue), and they ca
 - Speech input
 - Accompanying media to the story (images, music etc...)
 - Earn rewards for high competency in the stories
-
-## Challenges
