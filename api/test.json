@@ -1,0 +1,22 @@
+{
+  "scenes": [
+    {
+      "scene": "You walk left along the outer wall of the mansion. The path leads you to a small garden area with a stone bench and some overgrown bushes. A rusty old gate stands slightly ajar, leading into a dimly lit courtyard area behind the mansion.",
+      "option1": "Durch das Tor in den Hinterhof gehen",
+      "option2": "Auf der Bank Platz nehmen und warten",
+      "option3": "Zurück zum Haupttor gehen"
+    },
+    {
+      "scene": "You decide to go through the rusty gate into the courtyard behind the mansion. The area is unkempt with weeds growing up through the cracked stone tiles. An old well sits in the middle, covered by a wooden lid. To your left, you see a door that looks like it leads into the mansion basement.",
+      "option1": "Die Tür zur Kellertür öffnen",
+      "option2": "Den Brunnendeckel anheben und hinunterschauen",
+      "option3": "Zurück durch das Tor in den Garten gehen"
+    },
+    {
+      "scene": "You sit down on the stone bench in the small garden area. From here you can see the large front door of the mansion. The door is made of heavy wood with iron studs. After a few minutes of waiting, you hear a faint sound coming from around the corner of the outer wall.",
+      "option1": "Der Geräuschquelle folgen und um die Ecke gehen",
+      "option2": "Weiter auf der Bank sitzen bleiben und abwarten",
+      "option3": "Zurück zum Haupttor gehen und anklopfen"
+    }
+  ]
+}
