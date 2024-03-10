@@ -19,7 +19,8 @@ Stories are initially told in English (or the user's native tongue), and they ca
 - Supports any language
 - No story will ever be the same.
 - Users choose the genre they love for the story.
-- Users can choose specific groups of words of focus for the story.
+- Users can practice specific vocabulary weaved seamlessly into the story.
+- Catering to all ability levels ranging from beginner to advanced.
 
 ## Future plans
 
