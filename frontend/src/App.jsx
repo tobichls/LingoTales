@@ -256,7 +256,7 @@ function App() {
     <>
       <Header></Header>
       {formSubmitted ? (
-        <section>
+        <section className='main-section'>
           <h2 id="main_text">{message}</h2>
           <div id="selection_div">
             {options.length === 0 ? (

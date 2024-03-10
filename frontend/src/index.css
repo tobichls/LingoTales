@@ -143,3 +143,21 @@ input {
     background-position: -100%; /* Move gradient to show final color */
   }
 }
+
+.loading-indicator {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
