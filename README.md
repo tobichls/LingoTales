@@ -61,7 +61,11 @@ Feel free to look around our prototype demonstration website: [demonstration web
 
 ## Code Structure
 
-The web interface is built with React for a smooth user experience. `App.jsx` is the main hub where top level data is stored for use in API calls. The `MultiStepForm` component collects user data for setting up the story. Responses from the backend are stored in state and displayed. 
+The web interface is built with React for a smooth user experience. `App.jsx` is the main hub where top level data is stored for use in API calls. The `MultiStepForm` component collects user data for setting up the story. Responses from the backend are stored in state and displayed. `frontend/index.html`: This HTML file is the main page of the frontend application.
+
+`api/api.py`: This Python file contains the init function which sets up the API key for either the GPT or Claude backend.
+
+`api/main.py`: This file manages backend activities of the web application such as GET, POST and calling the LLM APIs.
 
 <br>
 
