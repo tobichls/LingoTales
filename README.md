@@ -22,9 +22,23 @@ Stories are initially told in English (or the user's native tongue), and they ca
 - Users can practice specific vocabulary weaved seamlessly into the story.
 - Catering to all ability levels ranging from beginner to advanced.
 
+## Technologies Used
+
+| Technology Used           | Purpose                           |
+|---------------------------|-----------------------------------|
+| `React.js`                    | Frontend web interface            |
+| `Claude LLM`                | Generating story panels           |
+| `Python` & `Flask`              | Backend server handling           |
+| `Google Cloud Translation API` | Language translation           |
+| `SpeechSynthesis Web API`   | Text-to-speech                   |
+
+
 ## Next Steps
 
 - Wildcard choices - higher ability users are given the opportunity to input anything as a choice, dramatically altering the range of stories to be told.
 - Speech input
 - Accompanying media to the story (images, music etc...)
 - Earn rewards for high competency in the stories
+
+
+
